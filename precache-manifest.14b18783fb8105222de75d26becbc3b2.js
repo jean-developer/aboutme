@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4195a925abbeaeb9de64063f0c64e159",
+    "revision": "806765260b9e29105f6436b1263bcf1a",
     "url": "/aboutme/index.html"
   },
   {
-    "revision": "27b079d0ef12439e9472",
-    "url": "/aboutme/static/css/3.00373544.chunk.css"
+    "revision": "a72b26bfe3aa50c22adc",
+    "url": "/aboutme/static/css/3.6a352120.chunk.css"
   },
   {
-    "revision": "5bd3d66c92be2090319f",
-    "url": "/aboutme/static/css/4.3e7d09e6.chunk.css"
+    "revision": "ac0889c898065116add6",
+    "url": "/aboutme/static/css/4.6e14a8dd.chunk.css"
   },
   {
-    "revision": "4d04cf79b8563d32e83d",
-    "url": "/aboutme/static/css/main.eed2ef79.chunk.css"
+    "revision": "2c8517c724d0f7ff633a",
+    "url": "/aboutme/static/css/main.7ecb2ec0.chunk.css"
   },
   {
-    "revision": "e62dc3920692f4ae521d",
-    "url": "/aboutme/static/js/2.c599fe24.chunk.js"
+    "revision": "cf6e3a37de8209639751",
+    "url": "/aboutme/static/js/2.6cca58ae.chunk.js"
   },
   {
-    "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/aboutme/static/js/2.c599fe24.chunk.js.LICENSE.txt"
+    "revision": "3dbd45c8ed21d092cdcb3d5851d22288",
+    "url": "/aboutme/static/js/2.6cca58ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "27b079d0ef12439e9472",
-    "url": "/aboutme/static/js/3.3b14902e.chunk.js"
+    "revision": "a72b26bfe3aa50c22adc",
+    "url": "/aboutme/static/js/3.40c148de.chunk.js"
   },
   {
-    "revision": "5bd3d66c92be2090319f",
-    "url": "/aboutme/static/js/4.5acf2b84.chunk.js"
+    "revision": "ac0889c898065116add6",
+    "url": "/aboutme/static/js/4.a7b6de9d.chunk.js"
   },
   {
-    "revision": "4d04cf79b8563d32e83d",
-    "url": "/aboutme/static/js/main.002d7f82.chunk.js"
+    "revision": "2c8517c724d0f7ff633a",
+    "url": "/aboutme/static/js/main.a466635b.chunk.js"
   },
   {
-    "revision": "1059e2761de9fd242be9",
-    "url": "/aboutme/static/js/runtime-main.bbf0c550.js"
+    "revision": "a9f75f4cc8ec705371cc",
+    "url": "/aboutme/static/js/runtime-main.c2213565.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -76,12 +76,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/media/harvardLogo.35ef5e91.png"
   },
   {
-    "revision": "52be31441c8cf8a8a16bd7a228d428bf",
-    "url": "/aboutme/static/media/manOnTable.52be3144.svg"
-  },
-  {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
     "url": "/aboutme/static/media/nextuLogo.829ad0a1.webp"
+  },
+  {
+    "revision": "afd272647584d2990a43216c050ff3a4",
+    "url": "/aboutme/static/media/profile_photo.afd27264.jpeg"
   },
   {
     "revision": "ee62cb58630f29a6e6201b49d4c03728",
