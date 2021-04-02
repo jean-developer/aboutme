@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e84b3acf43f0fbf0e0bf10ef0badffde",
+    "revision": "9b9c814902ac89b02851e33a84c8781b",
     "url": "/aboutme/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/css/4.6e14a8dd.chunk.css"
   },
   {
-    "revision": "bdf8797624e469a7ba72",
-    "url": "/aboutme/static/css/main.7ecb2ec0.chunk.css"
+    "revision": "5a5fdf1e861f1db3eccd",
+    "url": "/aboutme/static/css/main.061ca5c0.chunk.css"
   },
   {
     "revision": "e500c38cda6e10c567fd",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/js/4.a7b6de9d.chunk.js"
   },
   {
-    "revision": "bdf8797624e469a7ba72",
-    "url": "/aboutme/static/js/main.ded24dd2.chunk.js"
+    "revision": "5a5fdf1e861f1db3eccd",
+    "url": "/aboutme/static/js/main.5a501405.chunk.js"
   },
   {
     "revision": "a9f75f4cc8ec705371cc",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/media/nextuLogo.829ad0a1.webp"
   },
   {
-    "revision": "afd272647584d2990a43216c050ff3a4",
-    "url": "/aboutme/static/media/profile_photo.afd27264.jpeg"
+    "revision": "26060ece332252c89dd3920a99baa104",
+    "url": "/aboutme/static/media/profile_photo.26060ece.png"
   },
   {
     "revision": "ee62cb58630f29a6e6201b49d4c03728",
