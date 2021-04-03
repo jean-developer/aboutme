@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b9c814902ac89b02851e33a84c8781b",
+    "revision": "88f7c0d91d50127396125867e86f27c5",
     "url": "/aboutme/index.html"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/css/4.6e14a8dd.chunk.css"
   },
   {
-    "revision": "5a5fdf1e861f1db3eccd",
+    "revision": "99fafb37d17a8b3fd05c",
     "url": "/aboutme/static/css/main.061ca5c0.chunk.css"
   },
   {
-    "revision": "e500c38cda6e10c567fd",
-    "url": "/aboutme/static/js/2.4900b1ec.chunk.js"
+    "revision": "44f13ae04f27bca0bacc",
+    "url": "/aboutme/static/js/2.69c9c868.chunk.js"
   },
   {
     "revision": "3dbd45c8ed21d092cdcb3d5851d22288",
-    "url": "/aboutme/static/js/2.4900b1ec.chunk.js.LICENSE.txt"
+    "url": "/aboutme/static/js/2.69c9c868.chunk.js.LICENSE.txt"
   },
   {
     "revision": "a72b26bfe3aa50c22adc",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/js/4.a7b6de9d.chunk.js"
   },
   {
-    "revision": "5a5fdf1e861f1db3eccd",
-    "url": "/aboutme/static/js/main.5a501405.chunk.js"
+    "revision": "99fafb37d17a8b3fd05c",
+    "url": "/aboutme/static/js/main.099b2647.chunk.js"
   },
   {
     "revision": "a9f75f4cc8ec705371cc",
@@ -84,12 +84,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/media/logo-unapec.7e899532.jpeg"
   },
   {
-    "revision": "829ad0a1deef4d7295adfecdf12df2be",
-    "url": "/aboutme/static/media/nextuLogo.829ad0a1.webp"
+    "revision": "52be31441c8cf8a8a16bd7a228d428bf",
+    "url": "/aboutme/static/media/manOnTable.52be3144.svg"
   },
   {
-    "revision": "26060ece332252c89dd3920a99baa104",
-    "url": "/aboutme/static/media/profile_photo.26060ece.png"
+    "revision": "829ad0a1deef4d7295adfecdf12df2be",
+    "url": "/aboutme/static/media/nextuLogo.829ad0a1.webp"
   },
   {
     "revision": "ee62cb58630f29a6e6201b49d4c03728",
