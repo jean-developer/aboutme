@@ -13,6 +13,7 @@ import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import Top from "./topbutton/Top";
+import LanguageFabButton from "./languageFab/LanguageFabButton";
 import Twitter from "./twitter-embed/twitter";
 import {StyleProvider} from "../contexts/StyleContext";
 import "./Main.css";
@@ -28,7 +29,7 @@ export default class Main extends Component {
 
   componentDidMount() {
     if (localStorage.getItem("isDark") === null) {
-      const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+      const darkPref = window.matchMedia("(prefers-color-scheme: light)");
       localStorage.setItem("isDark", darkPref.matches);
     }
     this.setState({isDark: JSON.parse(localStorage.getItem("isDark"))});
@@ -43,23 +44,23 @@ export default class Main extends Component {
     return (
       <div className={this.state.isDark ? "dark-mode" : null}>
         <StyleProvider
-          value={{isDark: this.state.isDark, changeTheme: this.changeTheme}}
-        >
+          value={{isDark: this.state.isDark, changeTheme: this.changeTheme}}>
           <Header />
           <Greeting />
           <Skills />
           <StackProgress />
           <Education />
           <WorkExperience />
-          <Projects />
-          <StartupProject />
+          {/* <Projects /> */}
+          {/* <StartupProject /> */}
           <Achievement />
-          <Blogs />
-          <Talks />
-          <Twitter />
-          <Podcast />
+          {/* <Blogs /> */}
+          {/* <Talks /> */}
+          {/* <Twitter /> */}
+          {/* <Podcast /> */}
           <Profile />
-          <Footer />
+          {/* <Footer /> */}
+          <LanguageFabButton />
           <Top />
         </StyleProvider>
       </div>

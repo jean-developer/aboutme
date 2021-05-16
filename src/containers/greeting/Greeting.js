@@ -9,9 +9,17 @@ import Button from "../../components/button/Button";
 
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import {
+  useTranslation
+} from "react-i18next";
+
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
+  const {
+    t,
+    i18n
+  } = useTranslation('common');
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -25,7 +33,7 @@ export default function Greeting() {
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
-                {greeting.title}{" "}
+                {t(greeting.title)}{" "}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
@@ -35,16 +43,19 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                {t(greeting.subTitle)}
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
-                <Button
+                
+                {
+                //TODO: AGREGAR CV
+                /* <Button
                   text="See my resume"
                   newTab={true}
                   href={greeting.resumeLink}
-                />
+                /> */}
               </div>
             </div>
           </div>
@@ -58,6 +69,10 @@ export default function Greeting() {
               ></img>
             )}
           </div>
+          {/* <div className="greeting-profile-image-div" >
+            <img src = { require("../../assets/images/profile_photo.png")} >
+            </img> 
+          </div> */}
         </div>
       </div>
     </Fade>

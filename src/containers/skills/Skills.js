@@ -6,9 +6,17 @@ import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import {
+  useTranslation
+} from "react-i18next";
+import emoji from "react-easy-emoji";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
+  const {
+    t,
+    i18n
+  } = useTranslation('common');
   if (!skillsSection.display) {
     return null;
   }
@@ -32,7 +40,7 @@ export default function Skills() {
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
-              {skillsSection.title}{" "}
+              {t(skillsSection.title)}{" "}
             </h1>
             <p
               className={
@@ -41,7 +49,7 @@ export default function Skills() {
                   : "subTitle skills-text-subtitle"
               }
             >
-              {skillsSection.subTitle}
+              {t(skillsSection.subTitle)}
             </p>
             <SoftwareSkill />
             <div>
@@ -55,7 +63,9 @@ export default function Skills() {
                         : "subTitle skills-text"
                     }
                   >
-                    {skills}
+                    {
+                      emoji("- "+ t(skills))
+                    }
                   </p>
                 );
               })}

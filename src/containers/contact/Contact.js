@@ -6,15 +6,22 @@ import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
-
+import emoji from "react-easy-emoji";
+import {
+  useTranslation
+} from "react-i18next";
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
+  const {
+    t,
+    i18n
+  } = useTranslation('common');
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
-            <h1 className="heading contact-title">{contactInfo.title}</h1>
+            <h1 className="heading contact-title">{emoji(t(contactInfo.title)+ " ☎️")}</h1>
             <p
               className={
                 isDark
@@ -22,18 +29,18 @@ export default function Contact() {
                   : "subTitle contact-subtitle"
               }
             >
-              {contactInfo.subtitle}
+              {t(contactInfo.subtitle)}
             </p>
             <div
               className={
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
             >
-              <a className="contact-detail" href={"tel:" + contactInfo.number}>
+              {/* <a className="contact-detail" href={"tel:" + contactInfo.number}>
                 {contactInfo.number}
               </a>
               <br />
-              <br />
+              <br /> */}
               <a
                 className="contact-detail-email"
                 href={"mailto:" + contactInfo.email_address}

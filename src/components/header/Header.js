@@ -10,22 +10,28 @@ import {
   openSource,
   blogSection,
   talkSection,
-  achievementSection
+  achievementSection,
+  educationInfo
 } from "../../portfolio";
+import {
+  useTranslation
+} from "react-i18next";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
+  const viewEducation = educationInfo.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
+  const { t, i18n } = useTranslation('common');
 
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="/" className="logo">
+        <a href="/aboutme" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
@@ -39,42 +45,54 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
-          {viewSkills && (
+           { 
+           viewSkills && (
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills">{t('header.skills')}</a>
+            </li>
+          )}
+          <li>
+            <a href = "#proficiency" > {
+              t('skillProgress.skillProgressTitle')
+            } </a>  
+            </li>
+            {viewEducation && (
+            <li>
+              <a href="#education">{t('header.education')}</a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">{t('header.experiences')}</a>
             </li>
           )}
+          {/*
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#opensource">{t('header.opensource')}</a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">{t('header.achievements')}</a>
             </li>
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Blogs</a>
+              <a href="#education">{t('header.education')}</a>
             </li>
-          )}
-          {viewTalks && (
+          )} */}
+          {/* {viewTalks && (
             <li>
               <a href="#talks">Talks</a>
             </li>
-          )}
+          )} */}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">{t('header.contactme')}</a>
           </li>
           <li>
             <a href="#">
-              <ToggleSwitch />
+              {/* < ToggleSwitch / > */}
             </a>
           </li>
         </ul>

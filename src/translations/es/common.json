@@ -1,0 +1,63 @@
+{
+	"contact": {
+		"contactsubtitle": "Puedes contactarme a través de correo electrónico o mis redes sociales.",
+		"contacttitle": "Contáctame"
+	},
+	"education": {
+		"APEC": {
+			"schoolName": "Universidad APEC (UNAPEC)",
+			"subHeader": "Ingeniería en Desarrollo de Software"
+		},
+		"ITLA": {
+			"schoolName": "Instituto Tecnológico de Las Américas (ITLA)",
+			"subHeader": "Tecnólogo en Desarrollo de Software"
+		},
+		"fabioamota": {
+			"schoolName": "Politécnico Fabio A. Mota",
+			"subHeader": "Bachiller Técnico en Informática"
+		}
+	},
+	"greeting": {
+		"subtitle": "Analista Desarrollador de Software con experiencia Full Stack, he participado en varias fases del ciclo de desarrollo de aplicaciones de Software. \n\nMe gusta de vez en cuando utilizar mis conocimientos para ayudar a los demás compañeros a cumplir sus objetivos en caso de requerirlo. Tengo una gran pasión por la programación.\n\nHe participado en diferentes proyectos de impacto para el crecimiento de mis clientes y en las compañías que he laborado, soluciones basadas en la WEB y Móvil.",
+		"title": "Hola, soy Jean Carlos"
+	},
+	"header": {
+		"achievements": "Logros",
+		"contactme": "Contáctame",
+		"education": "Educación",
+		"experiences": "Experiencia laboral",
+		"opensource": "Código Abierto",
+		"skills": "Habilidades"
+	},
+	"skillProgress": {
+		"skillProgressTitle": "Competencias"
+	},
+	"skillsSection": {
+		"skill1": "Desarrollar estructuras Back End altamente funcionales e Interfaces de Usuario / Front End para tu Web y aplicaciones moviles.",
+		"skill2": "Integración con otros servicios de terceros, como Firebase, Azure, RabbitMQ.",
+		"skill3": "Desarrollo Movil con tecnologías híbridas.",
+		"skill4": "Control de Integración Continua y Despliegue continuo con Azure Devops.",
+		"skillssubtitle": "Conceptualizar y desarrollar proyectos en los stack más populares y funcionales. Como los siguientes:",
+		"skillstitle": "¿Qué hago?"
+	},
+	"workExperiences": {
+		"APAP": {
+			"company": "APAP",
+			"date": "Jun 2020 – Presente",
+			"desc": "Actualmente desarrollando soluciones, a partir de los requerimientos de la institución para crear servicios que se ajusten a las necesidades de los clientes. Tecnologías que utilizo frecuentemente:",
+			"role": "Analista Desarrollador de Software Senior"
+		},
+		"LogicOne": {
+			"company": "LogicOne SRL",
+			"date": "Nov 2018 - May 2020",
+			"desc": "Desarrollando sistemas WEB basados en tecnología de Microsoft y Aplicaciones móviles híbridas, tales como:",
+			"descBullets": {
+				"1": "Microsoft Dynamics (365 F&O, GP, CRM)",
+				"2": "Microsoft .NET Core",
+				"3": "Microsoft .NET Framework (MVC)",
+				"4": "Ionic (V3, V4)"
+			},
+			"role": "Desarrollador de Software"
+		}
+	}
+}

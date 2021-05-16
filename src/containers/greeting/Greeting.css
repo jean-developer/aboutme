@@ -44,8 +44,15 @@
 }
 
 .greeting-image-div > img {
+  max-width: 30%;
+  height: auto;
+}
+
+.greeting-profile-image-div > img {
   max-width: 100%;
   height: auto;
+  max-height: 80%;
+  /* margin-left: 20%; */
 }
 
 .wave-emoji {
@@ -106,6 +113,9 @@
     display: block;
   }
   .greeting-image-div {
+    height: 256px;
+  }
+  .greeting-profile-image-div {
     height: 256px;
   }
 }
