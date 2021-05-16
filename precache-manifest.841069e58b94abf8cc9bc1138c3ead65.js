@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4195a925abbeaeb9de64063f0c64e159",
+    "revision": "9738ada1e2a698bb55c37a4710a7fad0",
     "url": "/aboutme/index.html"
   },
   {
-    "revision": "27b079d0ef12439e9472",
-    "url": "/aboutme/static/css/3.00373544.chunk.css"
+    "revision": "a72b26bfe3aa50c22adc",
+    "url": "/aboutme/static/css/3.6a352120.chunk.css"
   },
   {
-    "revision": "5bd3d66c92be2090319f",
-    "url": "/aboutme/static/css/4.3e7d09e6.chunk.css"
+    "revision": "ac0889c898065116add6",
+    "url": "/aboutme/static/css/4.6e14a8dd.chunk.css"
   },
   {
-    "revision": "4d04cf79b8563d32e83d",
-    "url": "/aboutme/static/css/main.eed2ef79.chunk.css"
+    "revision": "68c3cf3a1e1f75ba7d2a",
+    "url": "/aboutme/static/css/main.061ca5c0.chunk.css"
   },
   {
-    "revision": "e62dc3920692f4ae521d",
-    "url": "/aboutme/static/js/2.c599fe24.chunk.js"
+    "revision": "44f13ae04f27bca0bacc",
+    "url": "/aboutme/static/js/2.69c9c868.chunk.js"
   },
   {
-    "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/aboutme/static/js/2.c599fe24.chunk.js.LICENSE.txt"
+    "revision": "3dbd45c8ed21d092cdcb3d5851d22288",
+    "url": "/aboutme/static/js/2.69c9c868.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "27b079d0ef12439e9472",
-    "url": "/aboutme/static/js/3.3b14902e.chunk.js"
+    "revision": "a72b26bfe3aa50c22adc",
+    "url": "/aboutme/static/js/3.40c148de.chunk.js"
   },
   {
-    "revision": "5bd3d66c92be2090319f",
-    "url": "/aboutme/static/js/4.5acf2b84.chunk.js"
+    "revision": "ac0889c898065116add6",
+    "url": "/aboutme/static/js/4.a7b6de9d.chunk.js"
   },
   {
-    "revision": "4d04cf79b8563d32e83d",
-    "url": "/aboutme/static/js/main.002d7f82.chunk.js"
+    "revision": "68c3cf3a1e1f75ba7d2a",
+    "url": "/aboutme/static/js/main.8f91a7cb.chunk.js"
   },
   {
-    "revision": "1059e2761de9fd242be9",
-    "url": "/aboutme/static/js/runtime-main.bbf0c550.js"
+    "revision": "a9f75f4cc8ec705371cc",
+    "url": "/aboutme/static/js/runtime-main.c2213565.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
-    "url": "/aboutme/static/media/airbnbLogo.c59720d6.png"
+    "revision": "db514d0c6701b054a0abdd35634033ca",
+    "url": "/aboutme/static/media/apaplogo.db514d0c.jpeg"
   },
   {
     "revision": "47a7a717679b640ceb1b05d38c480a61",
@@ -64,16 +64,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/media/developerActivity.59389695.svg"
   },
   {
-    "revision": "8ddf76a14a2e3ad3ba62b46d49a75a74",
-    "url": "/aboutme/static/media/facebookLogo.8ddf76a1.png"
-  },
-  {
     "revision": "e79c639294c805688be731921368c8f8",
     "url": "/aboutme/static/media/googleAssistantLogo.e79c6392.webp"
   },
   {
-    "revision": "35ef5e915631be2c31ccdff55b53db29",
-    "url": "/aboutme/static/media/harvardLogo.35ef5e91.png"
+    "revision": "86159da683e62ef8005f959c54007e2c",
+    "url": "/aboutme/static/media/itfamlogo.86159da6.png"
+  },
+  {
+    "revision": "2d827b7e6df8b4f5d1f3190e54be413a",
+    "url": "/aboutme/static/media/itlalogo.2d827b7e.png"
+  },
+  {
+    "revision": "6a48c99478e115a49c3240353ce00a85",
+    "url": "/aboutme/static/media/logicOneLogo.6a48c994.png"
+  },
+  {
+    "revision": "7e8995324337a910af367570d3ce9370",
+    "url": "/aboutme/static/media/logo-unapec.7e899532.jpeg"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
@@ -88,20 +96,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/media/pwaLogo.ee62cb58.webp"
   },
   {
-    "revision": "4b2938b9f5ea2f1ddbd45dccaff628bc",
-    "url": "/aboutme/static/media/quoraLogo.4b2938b9.png"
-  },
-  {
     "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
     "url": "/aboutme/static/media/saayaHealthLogo.25018d29.webp"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
     "url": "/aboutme/static/media/skill.34409398.svg"
-  },
-  {
-    "revision": "3b758ef56d398145542e137daa28e392",
-    "url": "/aboutme/static/media/stanfordLogo.3b758ef5.png"
   },
   {
     "revision": "13780cdd0144cacdef25486e2c2503f8",
