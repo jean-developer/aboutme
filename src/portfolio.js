@@ -27,7 +27,7 @@ const socialMediaLinks = {
   gmail: "jarnaudba@gmail.com",
   gitlab: "https://gitlab.com/jarnaudba",
   facebook: "https://www.facebook.com/jarnaudba",
-  instagram: "https://www.instagram.com/jeancarlos_a04/",
+  instagram: "https://www.instagram.com/jc_arnaud/",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Twitter are also supported in the links!
