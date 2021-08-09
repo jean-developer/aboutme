@@ -198,7 +198,7 @@ const workExperiences = {
       descBullets:[
         "NodeJS",
         "Angular",
-        ".NET",
+        "C#",
         "Ionic",
         "RabbitMQ",
         "KeyCloak",
