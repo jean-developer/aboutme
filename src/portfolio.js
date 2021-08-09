@@ -127,9 +127,18 @@ const educationInfo = {
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [{
+  experience: [
+    {
+      Stack: "C#", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "TYPESCRIPT", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
       Stack: "IONIC", //Insert stack or technology you have experience in
-      progressPercentage: "100%" //Insert relative proficiency in percentage
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "ANGULAR",
@@ -138,10 +147,6 @@ const techStack = {
     {
       Stack: "DOCKER",
       progressPercentage: "85%"
-    },
-    {
-      Stack: "TYPESCRIPT", //Insert stack or technology you have experience in
-      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
       Stack: "JAVASCRIPT", //Insert stack or technology you have experience in
@@ -155,11 +160,6 @@ const techStack = {
       Stack: "AZURE",
       progressPercentage: "80%"
     },
-    {
-      Stack: "ASP.NET CORE",
-      progressPercentage: "75%"
-    },
-    
     {
       Stack: "RABBITMQ",
       progressPercentage: "70%"
