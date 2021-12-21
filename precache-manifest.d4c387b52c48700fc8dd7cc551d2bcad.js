@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9738ada1e2a698bb55c37a4710a7fad0",
+    "revision": "31f434423a3d894212eb7c49b0b0b66f",
     "url": "/aboutme/index.html"
   },
   {
-    "revision": "a72b26bfe3aa50c22adc",
-    "url": "/aboutme/static/css/3.6a352120.chunk.css"
+    "revision": "ac6b529898b4ae24ace7",
+    "url": "/aboutme/static/css/3.2ad04f36.chunk.css"
   },
   {
-    "revision": "ac0889c898065116add6",
-    "url": "/aboutme/static/css/4.6e14a8dd.chunk.css"
+    "revision": "28910c6ec47e981d906b",
+    "url": "/aboutme/static/css/4.03c720bd.chunk.css"
   },
   {
-    "revision": "68c3cf3a1e1f75ba7d2a",
-    "url": "/aboutme/static/css/main.061ca5c0.chunk.css"
+    "revision": "8cf317addc5ed076f88e",
+    "url": "/aboutme/static/css/main.18670fb5.chunk.css"
   },
   {
-    "revision": "44f13ae04f27bca0bacc",
-    "url": "/aboutme/static/js/2.69c9c868.chunk.js"
+    "revision": "448b2767961cc4ab6b49",
+    "url": "/aboutme/static/js/2.3dd686e7.chunk.js"
   },
   {
     "revision": "3dbd45c8ed21d092cdcb3d5851d22288",
-    "url": "/aboutme/static/js/2.69c9c868.chunk.js.LICENSE.txt"
+    "url": "/aboutme/static/js/2.3dd686e7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a72b26bfe3aa50c22adc",
+    "revision": "ac6b529898b4ae24ace7",
     "url": "/aboutme/static/js/3.40c148de.chunk.js"
   },
   {
-    "revision": "ac0889c898065116add6",
+    "revision": "28910c6ec47e981d906b",
     "url": "/aboutme/static/js/4.a7b6de9d.chunk.js"
   },
   {
-    "revision": "68c3cf3a1e1f75ba7d2a",
-    "url": "/aboutme/static/js/main.8f91a7cb.chunk.js"
+    "revision": "8cf317addc5ed076f88e",
+    "url": "/aboutme/static/js/main.fd6af251.chunk.js"
   },
   {
-    "revision": "a9f75f4cc8ec705371cc",
-    "url": "/aboutme/static/js/runtime-main.c2213565.js"
+    "revision": "7251e355a86a6e1cae2b",
+    "url": "/aboutme/static/js/runtime-main.9a7cdd3a.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/media/developerActivity.59389695.svg"
   },
   {
+    "revision": "05b1b0ecc995fb4a53627de914917ec7",
+    "url": "/aboutme/static/media/endurancelogo.05b1b0ec.png"
+  },
+  {
     "revision": "e79c639294c805688be731921368c8f8",
     "url": "/aboutme/static/media/googleAssistantLogo.e79c6392.webp"
   },
@@ -88,23 +92,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/media/manOnTable.52be3144.svg"
   },
   {
-    "revision": "829ad0a1deef4d7295adfecdf12df2be",
-    "url": "/aboutme/static/media/nextuLogo.829ad0a1.webp"
+    "revision": "fe772a0078ab80b7533bc8086de2154c",
+    "url": "/aboutme/static/media/pslearninglogo.fe772a00.webp"
   },
   {
     "revision": "ee62cb58630f29a6e6201b49d4c03728",
     "url": "/aboutme/static/media/pwaLogo.ee62cb58.webp"
   },
   {
-    "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
-    "url": "/aboutme/static/media/saayaHealthLogo.25018d29.webp"
-  },
-  {
     "revision": "3440939881da8339d1597e8d77cdf850",
     "url": "/aboutme/static/media/skill.34409398.svg"
   },
   {
-    "revision": "13780cdd0144cacdef25486e2c2503f8",
-    "url": "/aboutme/static/media/talksCardBack.13780cdd.svg"
+    "revision": "39eff4a91b01e00a32cb78f3797eec88",
+    "url": "/aboutme/static/media/talksCardBack.39eff4a9.svg"
   }
 ]);
