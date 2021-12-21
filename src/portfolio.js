@@ -130,7 +130,11 @@ const techStack = {
   experience: [
     {
       Stack: "C#", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "92%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "NODEJS", //Insert stack or technology you have experience in
+      progressPercentage: "92%" //Insert relative proficiency in percentage
     },
     {
       Stack: "TYPESCRIPT", //Insert stack or technology you have experience in
@@ -153,10 +157,6 @@ const techStack = {
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "NODEJS", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
-    },
-    {
       Stack: "AZURE",
       progressPercentage: "80%"
     },
@@ -176,17 +176,21 @@ const techStack = {
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
-  experience: [{
-      role: "workExperiences.LogicOne.role",
-      company: "workExperiences.LogicOne.company",
-      companylogo: require("./assets/images/logicOneLogo.png"),
-      date: "workExperiences.LogicOne.date",
-      desc: "workExperiences.LogicOne.desc",
-      descBullets: [
-        "Microsoft Dynamics (365 F&O, GP, CRM)",
-        "Microsoft .NET Core",
-        "Microsoft .NET Framework (MVC)",
-        "Ionic (V3, V4)"
+  experience: [
+    {
+      role: "workExperiences.Endurance.role",
+      company: "workExperiences.Endurance.company",
+      companylogo: require("./assets/images/endurancelogo.png"),
+      date: "workExperiences.Endurance.date",
+      desc: "workExperiences.Endurance.desc",
+      descBullets:[
+        "C#",
+        "Angular",
+        "Razor Pages",
+        "Windows Services",
+        "SQL Server",
+        "Azure DevOps",
+        "Some Azure Portal Services"
       ]
     },
     {
@@ -205,6 +209,19 @@ const workExperiences = {
         "OpenShift",
         "Azure DevOps"
       ]
+    },
+    {
+      role: "workExperiences.LogicOne.role",
+      company: "workExperiences.LogicOne.company",
+      companylogo: require("./assets/images/logicOneLogo.png"),
+      date: "workExperiences.LogicOne.date",
+      desc: "workExperiences.LogicOne.desc",
+      descBullets: [
+        "Microsoft Dynamics (365 F&O, GP, CRM)",
+        "Microsoft .NET Core",
+        "Microsoft .NET Framework (MVC)",
+        "Ionic (V3, V4)"
+      ]
     }
   ]
 };
@@ -220,28 +237,32 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "startupProjects.title",
+  subtitle: "startupProjects.subTitle",
   projects: [{
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/pslearninglogo.webp"),
+      projectName: "startupProjects.PSLearning.projectName",
+      projectDesc: "startupProjects.PSLearning.projectDesc",
       footerLink: [{
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://pslearning.gob.do/pslearning/"
+        },
+        {
+          name: "View Android App",
+          url: "https://play.google.com/store/apps/details?id=com.psolidario.pslearning&hl=en_US&gl=US"
         }
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [{
-        name: "Visit Website",
-        url: "http://nextu.se/"
-      }]
-    }
+    // {
+    //   image: require("./assets/images/nextuLogo.webp"),
+    //   projectName: "Nextu",
+    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   footerLink: [{
+    //     name: "Visit Website",
+    //     url: "http://nextu.se/"
+    //   }]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };

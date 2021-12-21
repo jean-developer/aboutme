@@ -11,7 +11,8 @@ import {
   blogSection,
   talkSection,
   achievementSection,
-  educationInfo
+  educationInfo,
+  bigProjects
 } from "../../portfolio";
 import {
   useTranslation
@@ -22,6 +23,7 @@ function Header() {
   const viewExperience = workExperiences.display;
   const viewEducation = educationInfo.display;
   const viewOpenSource = openSource.display;
+  const viewProjects = bigProjects.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
@@ -64,6 +66,11 @@ function Header() {
           {viewExperience && (
             <li>
               <a href="#experience">{t('header.experiences')}</a>
+            </li>
+          )}
+           {viewProjects && (
+            <li>
+              <a href="#projects">{t('header.projects')}</a>
             </li>
           )}
           {/*

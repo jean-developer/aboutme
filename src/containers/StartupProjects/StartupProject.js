@@ -3,12 +3,16 @@ import "./StartupProjects.css";
 import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import {
+  useTranslation
+} from "react-i18next";
 
 export default function StartupProject() {
   function openProjectInNewWindow(url) {
     var win = window.open(url, "_blank");
     win.focus();
   }
+  const { t, i18n } = useTranslation('common');
   const {isDark} = useContext(StyleContext);
   if (!bigProjects.display) {
     return null;
@@ -17,7 +21,7 @@ export default function StartupProject() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
         <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
+          <h1 className="skills-heading">{t(bigProjects.title)}</h1>
           <p
             className={
               isDark
@@ -25,7 +29,7 @@ export default function StartupProject() {
                 : "subTitle project-subtitle"
             }
           >
-            {bigProjects.subtitle}
+            {t(bigProjects.subtitle)}
           </p>
 
           <div className="projects-container">
@@ -43,7 +47,7 @@ export default function StartupProject() {
                     <div className="project-image">
                       <img
                         src={project.image}
-                        alt={project.projectName}
+                        alt={t(project.projectName)}
                         className="card-image"
                       ></img>
                     </div>
@@ -52,14 +56,14 @@ export default function StartupProject() {
                     <h5
                       className={isDark ? "dark-mode card-title" : "card-title"}
                     >
-                      {project.projectName}
+                      {t(project.projectName)}
                     </h5>
                     <p
                       className={
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"
                       }
                     >
-                      {project.projectDesc}
+                      {t(project.projectDesc)}
                     </p>
                     {project.footerLink ? (
                       <div className="project-card-footer">

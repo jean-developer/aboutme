@@ -1,63 +1,78 @@
 {
-	"contact": {
-		"contactsubtitle": "You can contact me through email or social networks.",
-		"contacttitle": "Contact me"
-	},
-	"education": {
-		"APEC": {
-			"schoolName": "APEC University (UNAPEC)",
-			"subHeader": "Software Development Engineering"
-		},
-		"ITLA": {
-			"schoolName": "Las Americas Institute of Technology (ITLA)",
-			"subHeader": "Software Development Technologist"
-		},
-		"fabioamota": {
-			"schoolName": "Fabio A. Mota Polytechnic",
-			"subHeader": "Computer Tecnologist Bachelor"
-		}
-	},
-	"greeting": {
-		"subtitle": "Software Developer Analyst with Full-Stack experience, I have participated in many phases of the Development Life Cycle of Software Applications. I like to use my knowledge from time to time to help other colleagues to accomplish their objectives. I have passion for the Programming.\n\nI have participated in many impacting projects for the growing of my clients and in the companies that I have worked, implementing Mobile and Web Solutions.",
-		"title": "Hi, I am Jean Carlos"
-	},
-	"header": {
-		"achievements": "Achievements",
-		"contactme": "Contact me",
-		"education": "Education",
-		"experiences": "Work Experience",
-		"opensource": "Open Source",
-		"skills": "Skills"
-	},
-	"skillProgress": {
-		"skillProgressTitle": "Proficiency"
-	},
-	"skillsSection": {
-		"skill1": "Develop highly functional Back end structures and interactives Front end / User Interfaces for your web and mobile applications.",
-		"skill2": "Integration of third party services such as Firebase, Azure, RabbitMQ.",
-		"skill3": "Hybrid Mobile Development.",
-		"skill4": "Continous Integration and Continous Deployment control with Azure Devops.",
-		"skillssubtitle": "Conceptualize and develop projects with the most popular and functional stacks. As the following:",
-		"skillstitle": "What I do?"
-	},
-	"workExperiences": {
-		"APAP": {
-			"company": "APAP",
-			"date": "Jun 2020 – Present",
-			"desc": "Currently developing solutions, based on the requirements of the institution to create services that meet the needs of customers. Technologies I use frequently:",
-			"role": "Senior Software Developer Analyst"
-		},
-		"LogicOne": {
-			"company": "LogicOne SRL",
-			"date": "Nov 2018 - May 2020",
-			"desc": "Developing WEB systems based on Microsoft technology and hybrid mobile applications, such as:",
-			"descBullets": {
-				"1": "",
-				"2": "",
-				"3": "",
-				"4": ""
-			},
-			"role": "Software Developer"
-		}
-	}
+  "contact": {
+    "contactsubtitle": "You can contact me through email or social networks.",
+    "contacttitle": "Contact me"
+  },
+  "education": {
+    "APEC": {
+      "schoolName": "APEC University (UNAPEC)",
+      "subHeader": "Software Development Engineering"
+    },
+    "ITLA": {
+      "schoolName": "Las Americas Institute of Technology (ITLA)",
+      "subHeader": "Software Development Technologist"
+    },
+    "fabioamota": {
+      "schoolName": "Fabio A. Mota Polytechnic",
+      "subHeader": "Computer Tecnologist Bachelor"
+    }
+  },
+  "greeting": {
+    "subtitle": "Software Developer Analyst with Full-Stack experience, I have participated in many phases of the Development Life Cycle of Software Applications. I like to use my knowledge from time to time to help other colleagues to accomplish their objectives. I have passion for the Programming.\n\nI have participated in many impacting projects for the growing of my clients and in the companies that I have worked, implementing Mobile and Web Solutions.",
+    "title": "Hi, Jean Carlos on this side"
+  },
+  "header": {
+    "achievements": "Achievements",
+    "contactme": "Contact me",
+    "education": "Education",
+    "experiences": "Work Experience",
+    "opensource": "Open Source",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+  "skillProgress": {
+    "skillProgressTitle": "Proficiency"
+  },
+  "skillsSection": {
+    "skill1": "Develop highly functional Back end structures and interactives Front end / User Interfaces for your web and mobile applications.",
+    "skill2": "Integration of third party services such as Firebase, Azure, RabbitMQ.",
+    "skill3": "Hybrid Mobile Development.",
+    "skill4": "Continous Integration and Continous Deployment control with Azure Devops.",
+    "skillssubtitle": "Conceptualize and develop projects with the most popular and functional stacks. As the following:",
+    "skillstitle": "What I do?"
+  },
+  "workExperiences": {
+    "APAP": {
+      "company": "APAP",
+      "date": "Jun 2020 – Aug 2021",
+      "desc": "Developing solutions, based on the requirements of the institution to create services that meet the needs of customers. Technologies I use frequently:",
+      "role": "Senior Software Developer Analyst"
+    },
+    "LogicOne": {
+      "company": "LogicOne SRL",
+      "date": "Nov 2018 - May 2020",
+      "desc": "Developing WEB systems based on Microsoft technology and hybrid mobile applications, such as:",
+      "descBullets": {
+        "1": "Microsoft Dynamics (365 F&O, GP, CRM)",
+        "2": "Microsoft .NET Core",
+        "3": "Microsoft .NET Framework (MVC)",
+        "4": "Ionic (V3, V4)"
+      },
+      "role": "Software Developer"
+    },
+    "Endurance": {
+      "role": "Software Development Engineer",
+      "date": "Sep 2021 – Present",
+      "company": "Endurance International Group",
+      "desc": "Providing my services in Software Development and solving issues that can affect the user experience of the customers that use the provided services by the Endurance/Newfold Digital company and it's integrations, primarily EcomDash (Web application where you can manage both your marketplace and ecommerce website sales)."
+    }
+  },
+  "startupProjects": {
+    "PSLearning": {
+      "projectName": "PSLearning",
+      "projectDesc": "Mobile and Web applications addressed to the citizen service officers of Punto Solidario. This application allows access to a dynamic and fully self-managed learning mode to improve the skills of Punto Solidario staff."
+    },
+    "title": "Projects",
+    "subTitle": "SOME PERSONAL AND COMPANIES PROJECTS THAT I PARTICIPATED IN ITS CREATION"
+  }
 }
