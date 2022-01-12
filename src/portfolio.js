@@ -129,44 +129,88 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "C#", //Insert stack or technology you have experience in
-      progressPercentage: "92%" //Insert relative proficiency in percentage
+      Section: true,
+      Title: "Back-End Technologies"
     },
     {
       Stack: "NODEJS", //Insert stack or technology you have experience in
       progressPercentage: "92%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "TYPESCRIPT", //Insert stack or technology you have experience in
+      Stack: "ASP.NET Core", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "IONIC", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "ASP.NET", //Insert stack or technology you have experience in
+      progressPercentage: "88%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "ANGULAR",
+      Section: true,
+      Title: "Front-End Technologies"
+    },
+    {
+      Stack: "Ionic", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Angular",
       progressPercentage: "90%"
     },
     {
-      Stack: "DOCKER",
-      progressPercentage: "85%"
+      Stack: "Razor Pages",
+      progressPercentage: "65%"
     },
     {
-      Stack: "JAVASCRIPT", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "ReactJS",
+      progressPercentage: "50%"
     },
     {
-      Stack: "AZURE",
-      progressPercentage: "80%"
+      Section: true,
+      Title: "Message Brokers"
     },
     {
       Stack: "RABBITMQ",
       progressPercentage: "70%"
     },
     {
-      Stack: "REACTJS",
-      progressPercentage: "50%"
+      Section: true,
+      Title: "Programming Languages"
+    },
+    {
+      Stack: "TypeScript", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "C#", //Insert stack or technology you have experience in
+      progressPercentage: "93%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "JavaScript", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Section: true,
+      Title: "PaaS & CaaS"
+    },
+    {
+      Stack: "Red Hat Openshift Container Platform",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Docker",
+      progressPercentage: "82%"
+    },
+    {
+      Section: true,
+      Title: "Cloud Computing Services"
+    },
+    {
+      Stack: "Azure",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "AWS",
+      progressPercentage: "20%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false

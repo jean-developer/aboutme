@@ -22,15 +22,19 @@ export default function StackProgress() {
               const progressStyle = {
                 width: exp.progressPercentage
               };
-              return (
-                <div key={i} className="skill">
-                  <p>{exp.Stack}</p>
-                  <div className="meter">
-                    <span style={progressStyle}></span>
+              if(exp.Section){
+                return ( <h2 style={{marginBottom: 0, marginTop: 40, textDecorationLine: "underline"}}>{exp.Title}</h2> );
+              }else{
+                return (
+                  <div key={i} className="skill">
+                    <p>{exp.Stack}</p>
+                    <div className="meter">
+                      <span style={progressStyle}></span>
+                    </div>
                   </div>
-                </div>
-              );
-            })}
+                );
+              }
+          })}
           </div>
 
           <div className="skills-image">
