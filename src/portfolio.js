@@ -130,7 +130,7 @@ const techStack = {
   experience: [
     {
       Section: true,
-      Title: "Back-End Technologies"
+      Title: "skillProgress.subTitles.BackEndTechnologies"
     },
     {
       Stack: "NODEJS", //Insert stack or technology you have experience in
@@ -146,7 +146,7 @@ const techStack = {
     },
     {
       Section: true,
-      Title: "Front-End Technologies"
+      Title: "skillProgress.subTitles.FrontEndTechnologies"
     },
     {
       Stack: "Ionic", //Insert stack or technology you have experience in
@@ -166,15 +166,27 @@ const techStack = {
     },
     {
       Section: true,
-      Title: "Message Brokers"
+      Title: "skillProgress.subTitles.MessageBrokers"
     },
     {
-      Stack: "RABBITMQ",
+      Stack: "RabbitMQ",
       progressPercentage: "70%"
     },
     {
       Section: true,
-      Title: "Programming Languages"
+      Title: "skillProgress.subTitles.VersionControlSystems"
+    },
+    {
+      Stack: "Git",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "TFS (Azure Devops)",
+      progressPercentage: "86%"
+    },
+    {
+      Section: true,
+      Title: "skillProgress.subTitles.ProgrammingLanguages"
     },
     {
       Stack: "TypeScript", //Insert stack or technology you have experience in
@@ -190,7 +202,7 @@ const techStack = {
     },
     {
       Section: true,
-      Title: "PaaS & CaaS"
+      Title: "skillProgress.subTitles.PaaS&CaaS"
     },
     {
       Stack: "Red Hat Openshift Container Platform",
@@ -202,7 +214,7 @@ const techStack = {
     },
     {
       Section: true,
-      Title: "Cloud Computing Services"
+      Title: "skillProgress.subTitles.CloudComputingServices"
     },
     {
       Stack: "Azure",

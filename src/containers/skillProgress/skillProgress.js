@@ -23,7 +23,7 @@ export default function StackProgress() {
                 width: exp.progressPercentage
               };
               if(exp.Section){
-                return ( <h2 style={{marginBottom: 0, marginTop: 40, textDecorationLine: "underline"}}>{exp.Title}</h2> );
+                return ( <h2 style={{marginBottom: 0, marginTop: 40, textDecorationLine: "underline"}}>{t(exp.Title)}</h2> );
               }else{
                 return (
                   <div key={i} className="skill">

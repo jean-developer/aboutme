@@ -31,7 +31,16 @@
     "projects": "Projects"
   },
   "skillProgress": {
-    "skillProgressTitle": "Proficiency"
+    "skillProgressTitle": "Proficiency",
+    "subTitles": {
+      "BackEndTechnologies": "Back-End Technologies",
+      "FrontEndTechnologies": "Front-End Technologies",
+      "MessageBrokers": "Message Brokers",
+      "VersionControlSystems": "Version Control Systems",
+      "ProgrammingLanguages": "Programming Languages",
+      "CloudComputingServices": "Cloud Computing Services",
+      "PaaS&CaaS": "PaaS & CaaS"
+    }
   },
   "skillsSection": {
     "skill1": "Develop highly functional Back end structures and interactives Front end / User Interfaces for your web and mobile applications.",

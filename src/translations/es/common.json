@@ -31,7 +31,16 @@
     "projects": "Proyectos"
   },
   "skillProgress": {
-    "skillProgressTitle": "Competencias"
+    "skillProgressTitle": "Competencias",
+    "subTitles": {
+      "BackEndTechnologies": "Tecnologías Back-End",
+      "FrontEndTechnologies": "Tecnologías Front-End",
+      "MessageBrokers": "Middleware de Mensajería",
+      "VersionControlSystems": "Sistemas Control de Versiones",
+      "ProgrammingLanguages": "Lenguajes de Programación",
+      "CloudComputingServices": "Servicios de Computación en la Nube",
+      "PaaS&CaaS": "PaaS & CaaS"
+    }
   },
   "skillsSection": {
     "skill1": "Desarrollar estructuras Back End altamente funcionales e Interfaces de Usuario / Front End para tu Web y aplicaciones moviles.",
