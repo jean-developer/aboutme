@@ -17,6 +17,7 @@
 
 .subTitle {
   color: #868e96 !important;
+  white-space: pre-wrap;
 }
 
 .greeting-main {
