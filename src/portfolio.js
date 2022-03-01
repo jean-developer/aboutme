@@ -241,10 +241,11 @@ const workExperiences = {
       desc: "workExperiences.Endurance.desc",
       descBullets:[
         "C#",
-        "Angular",
+        "ReactJS",
         "Razor Pages",
-        "Windows Services",
         "SQL Server",
+        "MySQL",
+        "Windows Services",
         "Azure DevOps",
         "Some Azure Portal Services"
       ]
@@ -262,7 +263,7 @@ const workExperiences = {
         "Ionic",
         "RabbitMQ",
         "KeyCloak",
-        "OpenShift",
+        "OpenShift Cloud Platform",
         "Azure DevOps"
       ]
     },
