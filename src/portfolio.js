@@ -23,11 +23,11 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/jean-developer",
-  linkedin: "https://www.linkedin.com/in/jean-carlos-arnaud-batista/",
+  linkedin: "https://www.linkedin.com/in/jarnaudba/",
   gmail: "jarnaudba@gmail.com",
   gitlab: "https://gitlab.com/jarnaudba",
-  facebook: "https://www.facebook.com/jarnaudba",
-  instagram: "https://www.instagram.com/jc_arnaud/",
+  // facebook: "https://www.facebook.com/jarnaudba",
+  // instagram: "https://www.instagram.com/jc_arnaud/",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Twitter are also supported in the links!
