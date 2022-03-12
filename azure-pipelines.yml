@@ -6,6 +6,10 @@ trigger:
 - main
 pool: Default
 steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '16.13.0'
+  displayName: 'Install NodeJS'
 - script: |
     npm install
     npm run build
