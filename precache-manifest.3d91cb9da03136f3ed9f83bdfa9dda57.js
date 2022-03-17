@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb8c09e38c8ded4d189f44f0f770702d",
+    "revision": "d16ee88a969e6325eff8bbb503cb52b1",
     "url": "/aboutme/index.html"
   },
   {
-    "revision": "a72b26bfe3aa50c22adc",
-    "url": "/aboutme/static/css/3.6a352120.chunk.css"
+    "revision": "ac6b529898b4ae24ace7",
+    "url": "/aboutme/static/css/3.2ad04f36.chunk.css"
   },
   {
-    "revision": "ac0889c898065116add6",
-    "url": "/aboutme/static/css/4.6e14a8dd.chunk.css"
+    "revision": "28910c6ec47e981d906b",
+    "url": "/aboutme/static/css/4.03c720bd.chunk.css"
   },
   {
-    "revision": "38e9ff9432ada0fb5f6f",
-    "url": "/aboutme/static/css/main.993748d2.chunk.css"
+    "revision": "37981cec703fb6d37bc9",
+    "url": "/aboutme/static/css/main.3adeff1c.chunk.css"
   },
   {
     "revision": "448b2767961cc4ab6b49",
@@ -24,20 +24,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/js/2.3dd686e7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a72b26bfe3aa50c22adc",
+    "revision": "ac6b529898b4ae24ace7",
     "url": "/aboutme/static/js/3.40c148de.chunk.js"
   },
   {
-    "revision": "ac0889c898065116add6",
+    "revision": "28910c6ec47e981d906b",
     "url": "/aboutme/static/js/4.a7b6de9d.chunk.js"
   },
   {
-    "revision": "38e9ff9432ada0fb5f6f",
-    "url": "/aboutme/static/js/main.600b256a.chunk.js"
+    "revision": "37981cec703fb6d37bc9",
+    "url": "/aboutme/static/js/main.2ce2c358.chunk.js"
   },
   {
-    "revision": "a9f75f4cc8ec705371cc",
-    "url": "/aboutme/static/js/runtime-main.c2213565.js"
+    "revision": "7251e355a86a6e1cae2b",
+    "url": "/aboutme/static/js/runtime-main.9a7cdd3a.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -104,7 +104,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/media/skill.34409398.svg"
   },
   {
-    "revision": "13780cdd0144cacdef25486e2c2503f8",
-    "url": "/aboutme/static/media/talksCardBack.13780cdd.svg"
+    "revision": "39eff4a91b01e00a32cb78f3797eec88",
+    "url": "/aboutme/static/media/talksCardBack.39eff4a9.svg"
   }
 ]);
