@@ -234,6 +234,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "workExperiences.Encamina.role",
+      company: "workExperiences.Encamina.company",
+      companylogo: require("./assets/images/encaminalogo.jpg"),
+      contractType: "workExperiences.Encamina.contractType",
+      date: "workExperiences.Encamina.date",
+      desc: "workExperiences.Encamina.desc",
+      descBullets:[
+        "ASP.NET Core",
+        "Angular",
+        "C#",
+        "Typescript",
+        "MySQL",
+        "Entity Framework (EF Core)",
+        "Agile Methodologies",
+        "Self-management",
+        "Teamwork",
+        "Azure DevOps",
+        "Some Azure Portal Services"
+      ]
+    },
+    {
       role: "workExperiences.Endurance.role",
       company: "workExperiences.Endurance.company",
       companylogo: require("./assets/images/endurancelogo.png"),
@@ -255,7 +276,7 @@ const workExperiences = {
       role: "workExperiences.APAP.role",
       company: "workExperiences.APAP.company",
       companylogo: require("./assets/images/apaplogo.jpeg"),
-      contractType: "workExperiences.Endurance.contractType",
+      contractType: "workExperiences.APAP.contractType",
       date: "workExperiences.APAP.date",
       desc: "workExperiences.APAP.desc",
       descBullets:[
@@ -273,7 +294,7 @@ const workExperiences = {
       role: "workExperiences.LogicOne.role",
       company: "workExperiences.LogicOne.company",
       companylogo: require("./assets/images/logicOneLogo.png"),
-      contractType: "workExperiences.Endurance.contractType",
+      contractType: "workExperiences.LogicOne.contractType",
       date: "workExperiences.LogicOne.date",
       desc: "workExperiences.LogicOne.desc",
       descBullets: [

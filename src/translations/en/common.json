@@ -77,6 +77,13 @@
       "company": "Endurance International Group",
       "desc": "Providing my services in Software Development and solving issues that can affect the user experience of the customers that use the provided services by the Endurance/Newfold Digital company and it's integrations, primarily EcomDash (Web application where you can manage both your marketplace and ecommerce website sales).",
       "contractType": "Contract"
+    },
+    "Encamina": {
+      "company": "Encamina",
+      "role": "Cloud Solutions Developer",
+      "date": "Sep 2022 - Present",
+      "contractType": "Contract",
+      "desc": "My responsibilities are mostly to develop new features on a Web Application called DORA PQ from TIBA, it’s intended to manage logistics needs related to finding freight forwarders, logistics operators, and customs agents in Spain, specifically specializing in international transport."
     }
   },
   "startupProjects": {
