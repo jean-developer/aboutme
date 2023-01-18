@@ -63,6 +63,15 @@ export default function ExperienceCard({cardInfo, isDark}) {
         >
           {t(cardInfo.role)}
         </h5>
+        <p
+          className={
+            isDark
+              ? "experience-text-contractType dark-mode-text"
+              : "experience-text-contractType"
+          }
+        >
+          {t(cardInfo.contractType)}
+        </p>
         <h5
           className={
             isDark

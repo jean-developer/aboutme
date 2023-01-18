@@ -110,6 +110,15 @@
   font-weight: 600;
 }
 
+.experience-text-contractType {
+  text-align: center;
+  color: gray;
+  font-size: 15px;
+  margin: 0px;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+
 .experience-text-desc {
   text-align: center;
 }

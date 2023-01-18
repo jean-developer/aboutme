@@ -25,7 +25,7 @@ const socialMediaLinks = {
   github: "https://github.com/jean-developer",
   linkedin: "https://www.linkedin.com/in/jarnaudba/",
   gmail: "jarnaudba@gmail.com",
-  gitlab: "https://gitlab.com/jarnaudba",
+  // gitlab: "https://gitlab.com/jarnaudba",
   // facebook: "https://www.facebook.com/jarnaudba",
   // instagram: "https://www.instagram.com/jc_arnaud/",
   // medium: "https://medium.com/@saadpasta",
@@ -106,7 +106,7 @@ const educationInfo = {
       schoolName: "education.APEC.schoolName",
       logo: require("./assets/images/logo-unapec.jpeg"),
       subHeader: "education.APEC.subHeader",
-      duration: "2018 - Present",
+      duration: "2018 - 2023",
     },
     {
       schoolName: "education.ITLA.schoolName",
@@ -142,7 +142,7 @@ const techStack = {
     },
     {
       Stack: "ASP.NET", //Insert stack or technology you have experience in
-      progressPercentage: "88%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Section: true,
@@ -150,7 +150,7 @@ const techStack = {
     },
     {
       Stack: "Ionic", //Insert stack or technology you have experience in
-      progressPercentage: "95%" //Insert relative proficiency in percentage
+      progressPercentage: "92%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Angular",
@@ -162,7 +162,7 @@ const techStack = {
     },
     {
       Stack: "ReactJS",
-      progressPercentage: "50%"
+      progressPercentage: "60%"
     },
     {
       Section: true,
@@ -237,6 +237,7 @@ const workExperiences = {
       role: "workExperiences.Endurance.role",
       company: "workExperiences.Endurance.company",
       companylogo: require("./assets/images/endurancelogo.png"),
+      contractType: "workExperiences.Endurance.contractType",
       date: "workExperiences.Endurance.date",
       desc: "workExperiences.Endurance.desc",
       descBullets:[
@@ -254,6 +255,7 @@ const workExperiences = {
       role: "workExperiences.APAP.role",
       company: "workExperiences.APAP.company",
       companylogo: require("./assets/images/apaplogo.jpeg"),
+      contractType: "workExperiences.Endurance.contractType",
       date: "workExperiences.APAP.date",
       desc: "workExperiences.APAP.desc",
       descBullets:[
@@ -271,6 +273,7 @@ const workExperiences = {
       role: "workExperiences.LogicOne.role",
       company: "workExperiences.LogicOne.company",
       companylogo: require("./assets/images/logicOneLogo.png"),
+      contractType: "workExperiences.Endurance.contractType",
       date: "workExperiences.LogicOne.date",
       desc: "workExperiences.LogicOne.desc",
       descBullets: [

@@ -55,7 +55,8 @@
       "company": "APAP",
       "date": "Jun 2020 – Aug 2021",
       "desc": "Developing solutions, based on the requirements of the institution to create services that meet the needs of customers. Technologies I use frequently:",
-      "role": "Senior Software Developer Analyst"
+      "role": "Senior Software Developer Analyst",
+      "contractType": "Full-Time"
     },
     "LogicOne": {
       "company": "LogicOne SRL",
@@ -67,13 +68,15 @@
         "3": "Microsoft .NET Framework (MVC)",
         "4": "Ionic (V3, V4)"
       },
-      "role": "Software Developer"
+      "role": "Software Developer",
+      "contractType": "Full-Time"
     },
     "Endurance": {
       "role": "Software Development Engineer",
       "date": "Sep 2021 – Present",
       "company": "Endurance International Group",
-      "desc": "Providing my services in Software Development and solving issues that can affect the user experience of the customers that use the provided services by the Endurance/Newfold Digital company and it's integrations, primarily EcomDash (Web application where you can manage both your marketplace and ecommerce website sales)."
+      "desc": "Providing my services in Software Development and solving issues that can affect the user experience of the customers that use the provided services by the Endurance/Newfold Digital company and it's integrations, primarily EcomDash (Web application where you can manage both your marketplace and ecommerce website sales).",
+      "contractType": "Contract"
     }
   },
   "startupProjects": {
@@ -82,6 +85,6 @@
       "projectDesc": "Mobile and Web applications addressed to the citizen service officers of Punto Solidario. This application allows access to a dynamic and fully self-managed learning mode to improve the skills of Punto Solidario staff."
     },
     "title": "Projects",
-    "subTitle": "SOME PERSONAL AND COMPANIES PROJECTS THAT I PARTICIPATED IN ITS CREATION OR SUPPORTING THEM"
+    "subTitle": "SOME PERSONAL AND COMPANIES PROJECTS THAT I HAVE PARTICIPATED ON ITS CREATION OR SUPPORTING THEM"
   }
 }
