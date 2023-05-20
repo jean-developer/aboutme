@@ -18,7 +18,7 @@
     }
   },
   "greeting": {
-    "subtitle": "Analista Desarrollador de Software con experiencia Full Stack, he participado en varias fases del ciclo de desarrollo de aplicaciones de Software. \nMe gusta de vez en cuando utilizar mis conocimientos para ayudar a los demás compañeros a cumplir sus objetivos en caso de requerirlo.\nHe participado en diferentes proyectos de impacto para el crecimiento de mis clientes y en las compañías que he laborado, soluciones basadas en la WEB y Móvil.",
+    "subtitle": "Analista de Desarrollo de Software con experiencia Full-Stack, he participado en diversas fases del Ciclo de Vida del Desarrollo de Aplicaciones. Me gusta utilizar mis conocimientos para ayudar a mis colegas a alcanzar sus objetivos. He participado en proyectos de gran impacto para el crecimiento de mis clientes y las empresas en las que he trabajado, implementando soluciones móviles y web.",
     "title": "Hola, Jean Carlos de este lado"
   },
   "header": {
@@ -73,7 +73,7 @@
     },
     "Endurance": {
       "role": "Ingeniero en Desarrollo de Software",
-      "date": "Sep 2021 – Presente",
+      "date": "Sep 2021 – Mar 2023",
       "company": "Endurance International Group",
       "desc": "Brindando mis servicios en desarrollo de software y solución de problemas para tratar con los inconvenientes que se les presentan a los clientes que utilizan los servicios brindados por la compañía Endurance/NewFold Digital y sus integraciones, prioritariamente EcomDash (Aplicación Web donde puedes manejar ambos, sitios de ventas y tiendas de comercio electrónico).",
       "contractType": "Contrato"
