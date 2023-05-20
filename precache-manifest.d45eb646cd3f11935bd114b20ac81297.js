@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab5af3195dbf67b9d0439dd0ced8a095",
+    "revision": "dfe453f5eb34a92b57c8320eaf43daf6",
     "url": "/aboutme/index.html"
   },
   {
-    "revision": "c7590d0a1830802b20b6",
-    "url": "/aboutme/static/css/3.00373544.chunk.css"
+    "revision": "8ea17853202bbdfbdd3e",
+    "url": "/aboutme/static/css/3.3a26ebde.chunk.css"
   },
   {
-    "revision": "7f39dc1a2d0e26481fdd",
-    "url": "/aboutme/static/css/4.3e7d09e6.chunk.css"
+    "revision": "d819938a7ea62bbc8474",
+    "url": "/aboutme/static/css/4.ea3dbbf2.chunk.css"
   },
   {
-    "revision": "d73f27bf2ab8aaef60b8",
-    "url": "/aboutme/static/css/main.344e875a.chunk.css"
+    "revision": "2d5849731234b3f2e536",
+    "url": "/aboutme/static/css/main.d01cf826.chunk.css"
   },
   {
-    "revision": "926fc342d3285ce89856",
-    "url": "/aboutme/static/js/2.a72cf9e2.chunk.js"
+    "revision": "377a0f429cf615a391c5",
+    "url": "/aboutme/static/js/2.507e3c39.chunk.js"
   },
   {
     "revision": "3dbd45c8ed21d092cdcb3d5851d22288",
-    "url": "/aboutme/static/js/2.a72cf9e2.chunk.js.LICENSE.txt"
+    "url": "/aboutme/static/js/2.507e3c39.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c7590d0a1830802b20b6",
-    "url": "/aboutme/static/js/3.40c148de.chunk.js"
+    "revision": "8ea17853202bbdfbdd3e",
+    "url": "/aboutme/static/js/3.b2e61628.chunk.js"
   },
   {
-    "revision": "7f39dc1a2d0e26481fdd",
-    "url": "/aboutme/static/js/4.a7b6de9d.chunk.js"
+    "revision": "d819938a7ea62bbc8474",
+    "url": "/aboutme/static/js/4.98495367.chunk.js"
   },
   {
-    "revision": "d73f27bf2ab8aaef60b8",
-    "url": "/aboutme/static/js/main.600b256a.chunk.js"
+    "revision": "2d5849731234b3f2e536",
+    "url": "/aboutme/static/js/main.29d7edbd.chunk.js"
   },
   {
-    "revision": "7a7e22d4a1b96f07aae5",
-    "url": "/aboutme/static/js/runtime-main.132d3afd.js"
+    "revision": "bd295251bda290b6cd39",
+    "url": "/aboutme/static/js/runtime-main.41513215.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/media/developerActivity.59389695.svg"
   },
   {
+    "revision": "8dd86bd2bd166ad8fc698be3c7706b69",
+    "url": "/aboutme/static/media/encaminalogo.8dd86bd2.jpg"
+  },
+  {
     "revision": "05b1b0ecc995fb4a53627de914917ec7",
     "url": "/aboutme/static/media/endurancelogo.05b1b0ec.png"
   },
@@ -88,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/media/logo-unapec.7e899532.jpeg"
   },
   {
-    "revision": "52be31441c8cf8a8a16bd7a228d428bf",
-    "url": "/aboutme/static/media/manOnTable.52be3144.svg"
+    "revision": "c9acf561ae2ec4bf5a215791f89dee99",
+    "url": "/aboutme/static/media/profile_photo.c9acf561.png"
   },
   {
     "revision": "fe772a0078ab80b7533bc8086de2154c",
@@ -104,7 +108,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aboutme/static/media/skill.34409398.svg"
   },
   {
-    "revision": "13780cdd0144cacdef25486e2c2503f8",
-    "url": "/aboutme/static/media/talksCardBack.13780cdd.svg"
+    "revision": "39eff4a91b01e00a32cb78f3797eec88",
+    "url": "/aboutme/static/media/talksCardBack.39eff4a9.svg"
   }
 ]);
