@@ -52,8 +52,8 @@
 .greeting-profile-image-div > img {
   max-width: 100%;
   height: auto;
-  max-height: 80% !important;
-  margin-left: 20%;
+  max-height: 100% !important;
+  margin-left: 30%;
 }
 
 .wave-emoji {
