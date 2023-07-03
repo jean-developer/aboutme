@@ -5,7 +5,6 @@ import {
 } from "react-i18next";
 
 export default function LanguageFabButton() {
-  const [t, i18n] = useTranslation('common');
   const [useEnglish, setUseEnglish] = React.useState(true)
   function TopEvent() {
     if(i18n.language === "en") {
