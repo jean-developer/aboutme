@@ -12,7 +12,7 @@ export default function StartupProject() {
     var win = window.open(url, "_blank");
     win.focus();
   }
-  const { t, i18n } = useTranslation('common');
+  const { t } = useTranslation('common');
   const {isDark} = useContext(StyleContext);
   if (!bigProjects.display) {
     return null;

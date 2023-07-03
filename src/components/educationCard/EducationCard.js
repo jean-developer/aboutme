@@ -8,7 +8,7 @@ import {
 export default function EducationCard({school}) {
   const imgRef = createRef();
 
-  const { t, i18n } = useTranslation('common');
+  const { t } = useTranslation('common');
   const GetDescBullets = ({descBullets}) => {
     return descBullets
       ? descBullets.map((item, i) => (

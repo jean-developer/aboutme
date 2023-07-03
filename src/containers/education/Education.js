@@ -6,7 +6,7 @@ import {
   useTranslation
 } from "react-i18next";
 export default function Education() {
-  const { t, i18n } = useTranslation('common');
+  const { t } = useTranslation('common');
   if (educationInfo.display) {
     return (
       <div className="education-section" id="education">

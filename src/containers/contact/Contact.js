@@ -13,8 +13,7 @@ import {
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
   const {
-    t,
-    i18n
+    t
   } = useTranslation('common');
   return (
     <Fade bottom duration={1000} distance="20px">

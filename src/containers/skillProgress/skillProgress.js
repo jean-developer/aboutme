@@ -9,8 +9,7 @@ import {
 } from "react-i18next";
 export default function StackProgress() {
    const {
-     t,
-     i18n
+     t
    } = useTranslation('common');
   if (techStack.viewSkillBars) {
     return (

@@ -9,7 +9,7 @@ import {
 } from "react-i18next";
 export default function WorkExperience() {
   const {isDark} = useContext(StyleContext);
-  const { t, i18n } = useTranslation('common');
+  const { t } = useTranslation('common');
   if (workExperiences.display) {
     return (
       <div id="experience">

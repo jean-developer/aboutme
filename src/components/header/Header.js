@@ -1,16 +1,11 @@
 import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
-  blogSection,
-  talkSection,
-  achievementSection,
   educationInfo,
   bigProjects
 } from "../../portfolio";
@@ -22,13 +17,9 @@ function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewEducation = educationInfo.display;
-  const viewOpenSource = openSource.display;
   const viewProjects = bigProjects.display;
   const viewSkills = skillsSection.display;
-  const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
-  const { t, i18n } = useTranslation('common');
+  const { t } = useTranslation('common');
 
   return (
     <Headroom>
@@ -73,34 +64,8 @@ function Header() {
               <a href="#projects">{t('header.projects')}</a>
             </li>
           )}
-          {/*
-          {viewOpenSource && (
-            <li>
-              <a href="#opensource">{t('header.opensource')}</a>
-            </li>
-          )}
-          {viewAchievement && (
-            <li>
-              <a href="#achievements">{t('header.achievements')}</a>
-            </li>
-          )}
-          {viewBlog && (
-            <li>
-              <a href="#education">{t('header.education')}</a>
-            </li>
-          )} */}
-          {/* {viewTalks && (
-            <li>
-              <a href="#talks">Talks</a>
-            </li>
-          )} */}
           <li>
             <a href="#contact">{t('header.contactme')}</a>
-          </li>
-          <li>
-            <a href="#">
-              {/* < ToggleSwitch / > */}
-            </a>
           </li>
         </ul>
       </header>

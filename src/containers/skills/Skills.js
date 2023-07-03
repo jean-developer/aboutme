@@ -14,8 +14,7 @@ import emoji from "react-easy-emoji";
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
   const {
-    t,
-    i18n
+    t
   } = useTranslation('common');
   if (!skillsSection.display) {
     return null;

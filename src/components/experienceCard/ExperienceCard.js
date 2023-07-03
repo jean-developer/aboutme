@@ -8,8 +8,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
   const {
-    t,
-    i18n
+    t
   } = useTranslation('common');
 
   function getColorArrays() {
