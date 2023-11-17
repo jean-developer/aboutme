@@ -51,6 +51,9 @@
   position: relative;
   height: 250px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 

@@ -1,7 +1,7 @@
 {
   "contact": {
-    "contactsubtitle": "You can contact me through email or social networks.",
-    "contacttitle": "Contact me"
+    "subtitle": "You can contact me through email or social networks.",
+    "title": "Contact me"
   },
   "education": {
     "APEC": {
@@ -92,6 +92,14 @@
       "projectDesc": "Mobile and Web applications addressed to the citizen service officers of Punto Solidario. This application allows access to a dynamic and fully self-managed learning mode to improve the skills of Punto Solidario staff."
     },
     "title": "Projects",
-    "subTitle": "SOME PERSONAL AND COMPANIES PROJECTS THAT I HAVE PARTICIPATED ON ITS CREATION OR SUPPORTING THEM"
+    "subTitle": "SOME PERSONAL AND COMPANIES PROJECTS THAT I HAVE PARTICIPATED ON ITS CREATION OR SUPPORTING THEM",
+    "Movilapap": {
+      "projectDesc": "The Móvilapap application is a cutting-edge mobile application designed to cater to the unique needs of banking clients. This app serves as a gateway for customers to seamlessly access a variety of financial products and exclusive benefits tied to their banking relationships.",
+      "projectName": "Móvilapap"
+    },
+    "DORA": {
+      "projectName": "DORA",
+      "projectDesc": "The DORA PQ Web Application by TIBA is a specialized system for managing international transportation and logistical needs in Spain."
+    }
   }
 }

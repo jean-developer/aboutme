@@ -27,7 +27,7 @@ const socialMediaLinks = {
   gmail: "jarnaudba@gmail.com",
   // gitlab: "https://gitlab.com/jarnaudba",
   // facebook: "https://www.facebook.com/jarnaudba",
-  // instagram: "https://www.instagram.com/jc_arnaud/",
+  instagram: "https://www.instagram.com/jc_arnaud/",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Twitter are also supported in the links!
@@ -312,7 +312,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -332,9 +332,32 @@ const bigProjects = {
           name: "View Android App",
           url: "https://play.google.com/store/apps/details?id=com.psolidario.pslearning&hl=en_US&gl=US"
         }
-        //  you can add extra buttons here.
       ]
     },
+    {
+      image: require("./assets/images/movilapaplogo.webp"),
+      projectName: "startupProjects.Movilapap.projectName",
+      projectDesc: "startupProjects.Movilapap.projectDesc",
+      footerLink: [{
+          name: "View in the App Store",
+          url: "https://apps.apple.com/us/app/m%C3%B3vil-apap/id1073508748"
+        },
+        {
+          name: "View in the Play Store",
+          url: "https://play.google.com/store/apps/details?id=com.apapmovilprod&hl=en&gl=US"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/doraLogo.png"),
+      projectName: "startupProjects.DORA.projectName",
+      projectDesc: "startupProjects.DORA.projectDesc",
+      footerLink: [{
+          name: "Visit TIBA website",
+          url: "https://www.tibagroup.com/"
+        }
+      ]
+    }
     // {
     //   image: require("./assets/images/nextuLogo.webp"),
     //   projectName: "Nextu",
@@ -452,9 +475,8 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: "contact.contacttitle" //emoji(""+" ☎️"),
-    ,
-  subtitle: "contact.contactsubtitle",
+  title: "contact.title",
+  subtitle: "contact.subtitle",
   email_address: "jarnaudba@gmail.com"
 };
 

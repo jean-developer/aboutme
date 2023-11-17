@@ -1,7 +1,7 @@
 {
   "contact": {
-    "contactsubtitle": "Puedes contactarme a través de correo electrónico o mis redes sociales.",
-    "contacttitle": "Contáctame"
+    "subtitle": "Puedes contactarme a través de correo electrónico o mis redes sociales.",
+    "title": "Contáctame"
   },
   "education": {
     "APEC": {
@@ -92,6 +92,14 @@
       "projectName": "Punto Solidario Learning"
     },
     "title": "Proyectos",
-    "subTitle": "ALGUNOS PROYECTOS PERSONALES Y EMPRESARIALES EN LOS QUE HE PARTICIPADO EN SU CREACIÓN O BRINDANDO SOPORTE"
+    "subTitle": "ALGUNOS PROYECTOS PERSONALES Y EMPRESARIALES EN LOS QUE HE PARTICIPADO EN SU CREACIÓN O BRINDANDO SOPORTE",
+    "Movilapap": {
+      "projectDesc": "La aplicación Móvilapap es una aplicación móvil de vanguardia diseñada para satisfacer las necesidades únicas de los clientes bancarios. Esta aplicación sirve como una puerta de enlace para que los clientes accedan de manera fluida a una variedad de productos financieros y beneficios exclusivos vinculados a sus relaciones bancarias.",
+      "projectName": "Móvilapap"
+    },
+    "DORA": {
+      "projectName": "DORA",
+      "projectDesc": "Aplicación Web DORA PQ de TIBA, un sistema especializado en la gestión del transporte internacional y las necesidades logísticas en España."
+    }
   }
 }
