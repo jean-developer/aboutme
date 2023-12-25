@@ -35,6 +35,23 @@ export default function ExperienceCard({cardInfo, isDark}) {
       : null;
   };
 
+  const GetDelimitedDates = ({dates, isDark}) => {
+    const translatedDate = t(dates);
+    return translatedDate && translatedDate.split(';').length > 0
+      ? translatedDate.split(';').map((splittedDate, i) => (
+        <h5
+        className={
+          isDark
+            ? "experience-text-date dark-mode-text"
+            : "experience-text-date"
+        }
+      >
+        {splittedDate}
+      </h5>
+      ))
+      : (translatedDate) ? translatedDate : null;
+  };
+
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
       <div style={{background: rgb(colorArrays)}} className="experience-banner">
@@ -71,15 +88,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
         >
           {t(cardInfo.contractType)}
         </p>
-        <h5
-          className={
-            isDark
-              ? "experience-text-date dark-mode-text"
-              : "experience-text-date"
-          }
-        >
-          {t(cardInfo.date)}
-        </h5>
+        <GetDelimitedDates dates={cardInfo.date} isDark={isDark} />
         <p
           className={
             isDark

@@ -229,7 +229,6 @@ const techStack = {
 };
 
 // Work experience section
-
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
@@ -327,10 +326,6 @@ const bigProjects = {
       footerLink: [{
           name: "Visit Website",
           url: "http://pslearning.gob.do/pslearning/"
-        },
-        {
-          name: "View Android App",
-          url: "https://play.google.com/store/apps/details?id=com.psolidario.pslearning&hl=en_US&gl=US"
         }
       ]
     },
