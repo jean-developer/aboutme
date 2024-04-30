@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7fbc487406e0a29f963a88c571f15b21",
+    "revision": "625fc0e63ad6a16b59960aeabfe52646",
     "url": "/index.html"
   },
   {
-    "revision": "08b31879aa4b5c43b7c4",
+    "revision": "c3978f34059f505f7726",
     "url": "/static/css/3.3a26ebde.chunk.css"
   },
   {
-    "revision": "b5f7666f924c90c3ece1",
+    "revision": "398abb48566797856f9b",
     "url": "/static/css/4.ea3dbbf2.chunk.css"
   },
   {
-    "revision": "f2c7c76a3ef3f3e960bc",
-    "url": "/static/css/main.47512e4c.chunk.css"
+    "revision": "5cdcf94ae4b248cc68a8",
+    "url": "/static/css/main.8ce75c90.chunk.css"
   },
   {
-    "revision": "dc3a5f0dba85144551e3",
-    "url": "/static/js/2.fbe5115f.chunk.js"
+    "revision": "5f12b03b7eea1518caf5",
+    "url": "/static/js/2.cdd4055f.chunk.js"
   },
   {
     "revision": "880cf748f7c0ea17fcd415c486527fef",
-    "url": "/static/js/2.fbe5115f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.cdd4055f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "08b31879aa4b5c43b7c4",
-    "url": "/static/js/3.fe6c6826.chunk.js"
+    "revision": "c3978f34059f505f7726",
+    "url": "/static/js/3.1c696c0b.chunk.js"
   },
   {
-    "revision": "b5f7666f924c90c3ece1",
-    "url": "/static/js/4.7f79f4ea.chunk.js"
+    "revision": "398abb48566797856f9b",
+    "url": "/static/js/4.dce09910.chunk.js"
   },
   {
-    "revision": "f2c7c76a3ef3f3e960bc",
-    "url": "/static/js/main.af29b932.chunk.js"
+    "revision": "5cdcf94ae4b248cc68a8",
+    "url": "/static/js/main.f0bd91f0.chunk.js"
   },
   {
-    "revision": "1ca3410a33b21f674ec0",
-    "url": "/static/js/runtime-main.3266f8f6.js"
+    "revision": "d3dc4317f87ff63824e5",
+    "url": "/static/js/runtime-main.efcef45e.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "db514d0c6701b054a0abdd35634033ca",
     "url": "/static/media/apaplogo.db514d0c.jpeg"
+  },
+  {
+    "revision": "45b576648911d8d34eae86342903b6d4",
+    "url": "/static/media/biafit-logo.45b57664.webp"
   },
   {
     "revision": "47a7a717679b640ceb1b05d38c480a61",
