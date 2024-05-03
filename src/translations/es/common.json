@@ -81,7 +81,7 @@
     "Encamina": {
       "company": "Encamina",
       "role": "Desarrollador de Soluciones Cloud",
-      "date": "Sep 2022 - Present",
+      "date": "Sep 2022 - Feb 2024",
       "contractType": "Contrato",
       "desc": "Mis responsabilidades son principalmente desarrollar nuevas funcionalidades para una Aplicación Web llamada DORA PQ de TIBA, destinada a gestionar las necesidades logísticas relacionadas con la búsqueda de transitarios, operadores logísticos y agentes de aduanas en España, dicho sistema y funcionalidades son específicamente especializadas en gestión transporte internacional."
     }
@@ -100,6 +100,10 @@
     "DORA": {
       "projectName": "DORA",
       "projectDesc": "Aplicación Web DORA PQ de TIBA, un sistema especializado en la gestión del transporte internacional y las necesidades logísticas en España."
+    },
+    "Biafit": {
+      "projectDesc": "BiaFit es su compañero de fitness personalizado, que le permite crear y adaptar programas de entrenamiento perfectamente adaptados a sus niveles de experiencia y aspiraciones de fitness únicas. Ya sea que busque fuerza, desarrollo muscular o mejorar su estado físico general, la plataforma de entrenamiento basada en suscripción de BiaFit le brinda un conjunto de herramientas versátil para diseñar y personalizar rutinas de entrenamiento según sus necesidades.",
+      "projectName": "Bia-Fit"
     }
   }
 }

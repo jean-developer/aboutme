@@ -319,13 +319,18 @@ const openSource = {
 const bigProjects = {
   title: "startupProjects.title",
   subtitle: "startupProjects.subTitle",
-  projects: [{
-      image: require("./assets/images/pslearninglogo.webp"),
-      projectName: "startupProjects.PSLearning.projectName",
-      projectDesc: "startupProjects.PSLearning.projectDesc",
+  projects: [
+    {
+      image: require("./assets/images/biafit-logo.webp"),
+      projectName: "startupProjects.Biafit.projectName",
+      projectDesc: "startupProjects.Biafit.projectDesc",
       footerLink: [{
-          name: "Visit Website",
-          url: "http://pslearning.gob.do/pslearning/"
+          name: "View in the App Store",
+          url: "https://apps.apple.com/do/app/bia-fit/id6475781001"
+        },
+        {
+          name: "View in the Play Store",
+          url: "https://play.google.com/store/apps/details?id=com.development.biabodyuniversal&hl=en_US"
         }
       ]
     },
@@ -352,7 +357,17 @@ const bigProjects = {
           url: "https://www.tibagroup.com/"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/pslearninglogo.webp"),
+      projectName: "startupProjects.PSLearning.projectName",
+      projectDesc: "startupProjects.PSLearning.projectDesc",
+      footerLink: [{
+          name: "Visit Website",
+          url: "http://pslearning.gob.do/pslearning/"
+        }
+      ]
+    },
     // {
     //   image: require("./assets/images/nextuLogo.webp"),
     //   projectName: "Nextu",
