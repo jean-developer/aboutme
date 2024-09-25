@@ -17,7 +17,7 @@ i18next.init({
     lng: 'en', // language to use
     resources: {
         en: {
-            common: common_en // 'common' is our custom namespace
+            common: common_en
         },
         es: {
             common: common_es
