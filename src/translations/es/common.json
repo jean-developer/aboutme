@@ -54,7 +54,7 @@
     "APAP": {
       "company": "APAP",
       "date": "Jun 2020 – Ago 2021; Jun 2022 - Oct 2023",
-      "desc": "Desarrollando soluciones, a partir de los requerimientos de la institución para crear servicios que se ajusten a las necesidades de los clientes. Tecnologías que utilizo frecuentemente:",
+      "desc": "Desarrollando soluciones, a partir de los requerimientos de la institución para crear servicios que se ajusten a las necesidades de los clientes.",
       "role": "Analista Desarrollador de Software Senior",
       "contractType": "Tiempo completo"
     },
@@ -84,6 +84,34 @@
       "date": "Sep 2022 - Feb 2024",
       "contractType": "Contrato",
       "desc": "Mis responsabilidades son principalmente desarrollar nuevas funcionalidades para una Aplicación Web llamada DORA PQ de TIBA, destinada a gestionar las necesidades logísticas relacionadas con la búsqueda de transitarios, operadores logísticos y agentes de aduanas en España, dicho sistema y funcionalidades son específicamente especializadas en gestión transporte internacional."
+    },
+    "Teric": {
+      "company": "Teric Technology LLC",
+      "contractType": "Contrato",
+      "date": "Dic 2023 - May 2024",
+      "desc": "Ofreciendo mis servicios como Desarrollador Back-End para la creación de una aplicación de fitness llamada BiaFit, la cual se define como tu compañero de fitness personalizado, que te permite crear y adaptar programas de entrenamiento perfectamente ajustados a tu nivel de experiencia y metas de acondicionamiento físico únicas.\nHaciendo uso de alguna tecnologías, como las siguientes:",
+      "descBullets": {
+        "1": ".NET (C#)",
+        "2": "Azure SQL Database",
+        "3": "Web App Services",
+        "4": "Logic Apps",
+        "5": "Azure AD B2C"
+      },
+      "role": "Ingeniero de Desarrollo Back-End"
+    },
+    "Banreservas": {
+      "company": "Banreservas",
+      "contractType": "Tiempo Completo",
+      "date": "Oct 2023 - Presente",
+      "desc": "Como Back End Development Engineer en Banco de Reservas, soy responsable del diseño, desarrollo y mantenimiento de los sistemas backend que impulsan nuestras soluciones bancarias. Mi rol incluye trabajar con tecnologías como MongoDB, PostgreSQL y servicios de Azure para garantizar la integración fluida y el funcionamiento eficiente de nuestras aplicaciones.",
+      "role": "Ingeniero de Desarrollo Back-End"
+    },
+    "Stamp": {
+      "company": "STAMP",
+      "role": "Ingeniero de Software",
+      "contractType": "Contrato",
+      "date": "Jun 2024 - Presente",
+      "desc": "Como Ingeniero Backend en Stamp, soy responsable de diseñar, desarrollar y mantener los sistemas backend que soportan nuestras soluciones innovadoras. Mi rol implica trabajar con tecnologías .NET y Azure para asegurar la integración y funcionalidad sin problemas de nuestras aplicaciones."
     }
   },
   "startupProjects": {
@@ -104,6 +132,14 @@
     "Biafit": {
       "projectDesc": "BiaFit es su compañero de fitness personalizado, que le permite crear y adaptar programas de entrenamiento perfectamente adaptados a sus niveles de experiencia y aspiraciones de fitness únicas. Ya sea que busque fuerza, desarrollo muscular o mejorar su estado físico general, la plataforma de entrenamiento basada en suscripción de BiaFit le brinda un conjunto de herramientas versátil para diseñar y personalizar rutinas de entrenamiento según sus necesidades.",
       "projectName": "Bia-Fit"
+    },
+    "Banreservas": {
+      "projectName": "App Banreservas",
+      "projectDesc": "La App Banreservas Personas, libre de datos e internet, te permite realizar consultas, transacciones, localizar cajeros, oficinas comerciales y subagentes, y estar al día sobre las principales novedades de Banreservas de la manera más cómoda y sencilla."
+    },
+    "Stamp": {
+      "projectDesc": "Ahorra el 100% del IVA al comprar libre de impuestos. Olvídate de las tarifas de reembolso, las filas y el papeleo.\n\nLas agencias tradicionales de reembolso de impuestos te cobran hasta un 60% por transacción. Cuanto más gastas, más te quitan las agencias.",
+      "projectName": "Stamp Tax Free"
     }
   }
 }

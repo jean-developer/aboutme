@@ -54,7 +54,7 @@
     "APAP": {
       "company": "APAP",
       "date": "Jun 2020 – Aug 2021; Jun 2022 - Oct 2023",
-      "desc": "Developing solutions, based on the requirements of the institution to create services that meet the needs of customers. Technologies I use frequently:",
+      "desc": "Developing solutions, based on the requirements of the institution to create services that meet the needs of customers.",
       "role": "Senior Software Developer Analyst",
       "contractType": "Full-Time"
     },
@@ -84,6 +84,34 @@
       "date": "Sep 2022 - Feb 2024",
       "contractType": "Contract",
       "desc": "My responsibilities are mostly to develop new features on a Web Application called DORA PQ from TIBA, it’s intended to manage logistics needs related to finding freight forwarders, logistics operators, and customs agents in Spain, specifically specializing in international transport."
+    },
+    "Teric": {
+      "company": "Teric Technology LLC",
+      "contractType": "Contract",
+      "date": "Dec 2023 - May 2024",
+      "desc": "Providing my services as a Back End Developer for building a Fitness App called BiaFit, which is defined as your personalized fitness companion, empowering you to create and adapt training programs perfectly suited to your experience levels and unique fitness aspirations.\nMaking use of many technologies, such as:",
+      "descBullets": {
+        "1": ".NET (C#)",
+        "2": "Azure SQL Database",
+        "3": "Web App Services",
+        "4": "Logic Apps",
+        "5": "Azure AD B2C"
+      },
+      "role": "Back-End Development Engineer"
+    },
+    "Banreservas": {
+      "company": "Banreservas",
+      "contractType": "Full-Time",
+      "date": "Oct 2023 - Present",
+      "desc": "As a Back End Development Engineer at Banco de Reservas, I am responsible for designing, developing, and maintaining the backend systems that power our banking solutions. My role involves working with technologies such as MongoDB, PostgreSQL, and Azure services to ensure seamless integration and efficient functionality of our applications.",
+      "role": "Back-End Development Engineer"
+    },
+    "Stamp": {
+      "company": "STAMP",
+      "role": "Software Engineer",
+      "contractType": "Contract",
+      "date": "Jun 2024 - Present",
+      "desc": "As a Backend Engineer at Stamp, I am responsible for designing, developing, and maintaining the backend systems that support our innovative solutions. My role involves working with .NET and Azure technologies to ensure the seamless integration and functionality of our applications."
     }
   },
   "startupProjects": {
@@ -104,6 +132,14 @@
     "Biafit": {
       "projectDesc": "BiaFit, is your personalized fitness companion, empowering you to create and adapt training programs perfectly suited to your experience levels and unique fitness aspirations. Whether you're aiming for strength, muscle building, or overall fitness enhancement, BiaFit's subscription-based workout platform provides you with a versatile toolkit to design and customize training routines according to your needs.",
       "projectName": "Bia-Fit"
+    },
+    "Banreservas": {
+      "projectName": "Banreservas App",
+      "projectDesc": "The Banreservas Personas App, free of data and internet usage, allows you to make inquiries, transactions, locate ATMs, branches, and sub-agents, and stay up to date with the latest news from Banreservas in the most convenient and simple way."
+    },
+    "Stamp": {
+      "projectDesc": "Save 100% of VAT upfront while shopping tax-free. Forget about refund fees, lines, and paperwork.\n\nTraditional tax refund agencies charge you up to 60% per transaction. The more you spend, the more agencies take from you.",
+      "projectName": "Stamp Tax Free"
     }
   }
 }

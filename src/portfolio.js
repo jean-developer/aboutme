@@ -11,7 +11,7 @@ const illustration = {
 
 const greeting = {
   username: "Jean Arnaud",
-  title: 'greeting.title',
+  title: "greeting.title",
   subTitle: emoji(
     "greeting.subtitle"
   ),
@@ -50,9 +50,9 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [{
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
+    skillName: "html-5",
+    fontAwesomeClassname: "fab fa-html5"
+  },
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
@@ -92,7 +92,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Mobile Development",
       fontAwesomeClassname: "fas fa-mobile"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -106,13 +106,13 @@ const educationInfo = {
       schoolName: "education.APEC.schoolName",
       logo: require("./assets/images/logo-unapec.jpeg"),
       subHeader: "education.APEC.subHeader",
-      duration: "2018 - 2023",
+      duration: "2018 - 2023"
     },
     {
       schoolName: "education.ITLA.schoolName",
       logo: require("./assets/images/itlalogo.png"),
       subHeader: "education.ITLA.subHeader",
-      duration: "2016 - 2018",
+      duration: "2016 - 2018"
     },
     {
       schoolName: "education.fabioamota.schoolName",
@@ -133,35 +133,39 @@ const techStack = {
       Title: "skillProgress.subTitles.BackEndTechnologies"
     },
     {
-      Stack: "NODEJS", //Insert stack or technology you have experience in
-      progressPercentage: "92%" //Insert relative proficiency in percentage
+      Stack: "NODEJS",
+      progressPercentage: "92%"
     },
     {
-      Stack: "ASP.NET Core", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "ASP.NET Core",
+      progressPercentage: "90%"
     },
     {
-      Stack: "ASP.NET", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      Stack: "ASP.NET",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Quarkus/Maven (Java)",
+      progressPercentage: "50%"
     },
     {
       Section: true,
       Title: "skillProgress.subTitles.FrontEndTechnologies"
     },
     {
-      Stack: "Ionic", //Insert stack or technology you have experience in
-      progressPercentage: "92%" //Insert relative proficiency in percentage
+      Stack: "Ionic",
+      progressPercentage: "92%"
     },
     {
       Stack: "Angular",
       progressPercentage: "90%"
     },
     {
-      Stack: "Razor Pages",
+      Stack: "ReactJS",
       progressPercentage: "65%"
     },
     {
-      Stack: "ReactJS",
+      Stack: "Razor Pages",
       progressPercentage: "60%"
     },
     {
@@ -170,7 +174,11 @@ const techStack = {
     },
     {
       Stack: "RabbitMQ",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Azure Service Bus",
+      progressPercentage: "65%"
     },
     {
       Section: true,
@@ -233,13 +241,65 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "workExperiences.Stamp.role",
+      company: "workExperiences.Stamp.company",
+      companylogo: require("./assets/images/stamptaxfree_logo.jpeg"),
+      contractType: "workExperiences.Stamp.contractType",
+      date: "workExperiences.Stamp.date",
+      desc: "workExperiences.Stamp.desc",
+      descBullets: [
+        "Entity Framework",
+        "Azure Service Bus",
+        "Azure Functions",
+        "Azure WebJobs",
+        "Azure Storage",
+        "Azure SQL Database",
+        ".NET Framework",
+        "Fleet Manager"
+      ]
+    },
+    {
+      role: "workExperiences.Banreservas.role",
+      company: "workExperiences.Banreservas.company",
+      companylogo: require("./assets/images/Banreservas.jpeg"),
+      contractType: "workExperiences.Banreservas.contractType",
+      date: "workExperiences.Banreservas.date",
+      desc: "workExperiences.Banreservas.desc",
+      descBullets: [
+        "MongoDB",
+        "PostgreSQL",
+        "Azure DevOps",
+        "REST APIs",
+        ".NET (C#)",
+        "NestJS",
+        "Quarkus/Maven (Java)",
+        "Docker",
+        "GitLab"
+      ]
+    },
+    {
+      role: "workExperiences.Teric.role",
+      company: "workExperiences.Teric.company",
+      companylogo: require("./assets/images/teric_logo.jpeg"),
+      contractType: "workExperiences.Teric.contractType",
+      date: "workExperiences.Teric.date",
+      desc: "workExperiences.Teric.desc",
+      descBullets: [
+        ".NET (C#)",
+        "Azure SQL Database",
+        "Web App Services",
+        "Logic Apps",
+        "Azure AD B2C"
+      ]
+    },
+    {
       role: "workExperiences.Encamina.role",
       company: "workExperiences.Encamina.company",
       companylogo: require("./assets/images/encaminalogo.jpg"),
       contractType: "workExperiences.Encamina.contractType",
       date: "workExperiences.Encamina.date",
       desc: "workExperiences.Encamina.desc",
-      descBullets:[
+      descBullets: [
         "ASP.NET Core",
         "Angular",
         "C#",
@@ -260,7 +320,7 @@ const workExperiences = {
       contractType: "workExperiences.Endurance.contractType",
       date: "workExperiences.Endurance.date",
       desc: "workExperiences.Endurance.desc",
-      descBullets:[
+      descBullets: [
         "C#",
         "ReactJS",
         "Razor Pages",
@@ -278,7 +338,7 @@ const workExperiences = {
       contractType: "workExperiences.APAP.contractType",
       date: "workExperiences.APAP.date",
       desc: "workExperiences.APAP.desc",
-      descBullets:[
+      descBullets: [
         "NodeJS",
         "Angular",
         "C#",
@@ -321,13 +381,41 @@ const bigProjects = {
   subtitle: "startupProjects.subTitle",
   projects: [
     {
+      image: require("./assets/images/stamptaxfree_logo.jpeg"),
+      projectName: "startupProjects.Stamp.projectName",
+      projectDesc: "startupProjects.Stamp.projectDesc",
+      footerLink: [{
+        name: "View in the App Store",
+        url: "https://apps.apple.com/us/app/stamp-city-duty-free/id1321377133"
+      },
+        {
+          name: "View in the Play Store",
+          url: "https://play.google.com/store/apps/details?id=com.stamp.CustomerApp&hl=en_US&pli=1"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Banreservas.jpeg"),
+      projectName: "startupProjects.Banreservas.projectName",
+      projectDesc: "startupProjects.Banreservas.projectDesc",
+      footerLink: [{
+        name: "View in the App Store",
+        url: "https://apps.apple.com/do/app/banreservas/id1170610154"
+      },
+        {
+          name: "View in the Play Store",
+          url: "https://play.google.com/store/apps/details?id=com.banreservas.tubancoappmobile&hl=es_DO"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/biafit-logo.webp"),
       projectName: "startupProjects.Biafit.projectName",
       projectDesc: "startupProjects.Biafit.projectDesc",
       footerLink: [{
-          name: "View in the App Store",
-          url: "https://apps.apple.com/do/app/bia-fit/id6475781001"
-        },
+        name: "View in the App Store",
+        url: "https://apps.apple.com/do/app/bia-fit/id6475781001"
+      },
         {
           name: "View in the Play Store",
           url: "https://play.google.com/store/apps/details?id=com.development.biabodyuniversal&hl=en_US"
@@ -339,9 +427,9 @@ const bigProjects = {
       projectName: "startupProjects.Movilapap.projectName",
       projectDesc: "startupProjects.Movilapap.projectDesc",
       footerLink: [{
-          name: "View in the App Store",
-          url: "https://apps.apple.com/us/app/m%C3%B3vil-apap/id1073508748"
-        },
+        name: "View in the App Store",
+        url: "https://apps.apple.com/us/app/m%C3%B3vil-apap/id1073508748"
+      },
         {
           name: "View in the Play Store",
           url: "https://play.google.com/store/apps/details?id=com.apapmovilprod&hl=en&gl=US"
@@ -353,9 +441,9 @@ const bigProjects = {
       projectName: "startupProjects.DORA.projectName",
       projectDesc: "startupProjects.DORA.projectDesc",
       footerLink: [{
-          name: "Visit TIBA website",
-          url: "https://www.tibagroup.com/"
-        }
+        name: "Visit TIBA website",
+        url: "https://www.tibagroup.com/"
+      }
       ]
     },
     {
@@ -363,11 +451,11 @@ const bigProjects = {
       projectName: "startupProjects.PSLearning.projectName",
       projectDesc: "startupProjects.PSLearning.projectDesc",
       footerLink: [{
-          name: "Visit Website",
-          url: "http://pslearning.gob.do/pslearning/"
-        }
+        name: "Visit Website",
+        url: "http://pslearning.gob.do/pslearning/"
+      }
       ]
-    },
+    }
     // {
     //   image: require("./assets/images/nextuLogo.webp"),
     //   projectName: "Nextu",
@@ -389,23 +477,23 @@ const achievementSection = {
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [{
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      footerLink: [{
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+    title: "Google Code-In Finalist",
+    subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+    image: require("./assets/images/codeInLogo.webp"),
+    footerLink: [{
+      name: "Certification",
+      url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
     },
+      {
+        name: "Award Letter",
+        url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+      },
+      {
+        name: "Google Code-in Blog",
+        url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+      }
+    ]
+  },
     {
       title: "Google Assistant Action",
       subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
@@ -421,9 +509,9 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [{
-          name: "Certification",
-          url: ""
-        },
+        name: "Certification",
+        url: ""
+      },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -441,10 +529,10 @@ const blogSection = {
   subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
   blogs: [{
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
+    url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+    title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+    description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+  },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
