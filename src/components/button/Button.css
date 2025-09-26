@@ -1,26 +1,44 @@
 .main-button {
-  background-color: #55198b;
-  border: solid 1px #55198b;
-  color: white;
-  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
   width: max-content;
-  padding: 13px 22px;
-  margin-right: 50px;
+  margin-top: 0.25rem;
+  padding: 0.85rem 1.8rem;
+  border-radius: 999px;
+  border: none;
+  background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  border-radius: 6px;
-  text-align: center;
   text-decoration: none;
-  display: block;
-  margin-top: 20px;
-  font-size: 16px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out 0s;
+  box-shadow: 0 18px 35px -20px rgba(139, 92, 246, 0.65);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.35s ease;
 }
-.main-button:hover {
-  background-color: #ffffff;
-  color: #55198b;
-  transition: all 0.3s ease 0s;
-  transform: translateY(-3px);
+
+.main-button:hover,
+.main-button:focus-visible {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 20px 40px -18px rgba(236, 72, 153, 0.55);
+  background: linear-gradient(135deg, #a855f7 0%, #f472b6 100%);
+}
+
+.main-button:focus-visible {
+  outline: 3px solid rgba(236, 72, 153, 0.35);
+  outline-offset: 3px;
+}
+
+.main-button:active {
+  transform: translateY(0px) scale(0.99);
+  box-shadow: 0 14px 28px -20px rgba(139, 92, 246, 0.5);
+}
+
+.main-button + .main-button {
+  margin-left: 0.5rem;
 }
 .project-button {
   display: flex;
@@ -33,13 +51,13 @@
 /* Media Query */
 @media (max-width: 768px) {
   .main-button {
-    font-size: 15px;
-    padding: 12px 18px;
-    margin-right: 0px;
+    padding: 0.8rem 1.6rem;
+    font-size: 0.9rem;
+    width: 100%;
   }
 }
 @media (max-width: 320px) {
   .main-button {
-    font-size: 12px;
+    font-size: 0.8rem;
   }
 }
