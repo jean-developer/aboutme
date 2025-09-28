@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",
+    "framer-motion": "^4.1.17",
     "gh-pages": "^2.2.0",
     "i18next": "^20.1.0",
     "react": "^16.10.2",
