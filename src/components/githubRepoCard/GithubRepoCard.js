@@ -1,6 +1,7 @@
 import React from "react";
+import {motion} from "framer-motion";
 import "./GithubRepoCard.css";
-import {Fade} from "react-reveal";
+import {defaultViewport, fadeIn, slideUp} from "../../utils/animations";
 
 export default function GithubRepoCard({repo, isDark}) {
   function openRepoinNewTab(url) {
@@ -9,13 +10,18 @@ export default function GithubRepoCard({repo, isDark}) {
   }
 
   return (
-    <Fade bottom duration={1000} distance="20px">
-      <div>
-        <div
-          className={isDark ? "dark-card-mode repo-card-div" : "repo-card-div"}
-          key={repo.node.id}
-          onClick={() => openRepoinNewTab(repo.node.url)}
-        >
+    <motion.div
+      initial="hidden"
+      whileInView="show"
+      viewport={defaultViewport}
+      variants={fadeIn}
+    >
+      <motion.div
+        className={isDark ? "dark-card-mode repo-card-div" : "repo-card-div"}
+        key={repo.node.id}
+        onClick={() => openRepoinNewTab(repo.node.url)}
+        variants={slideUp}
+      >
           <div className="repo-name-div">
             <svg
               aria-hidden="true"
@@ -83,8 +89,7 @@ export default function GithubRepoCard({repo, isDark}) {
               <p>{repo.node.diskUsage} KB</p>
             </div>
           </div>
-        </div>
-      </div>
-    </Fade>
+      </motion.div>
+    </motion.div>
   );
 }

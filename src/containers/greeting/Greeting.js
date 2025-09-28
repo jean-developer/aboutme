@@ -7,44 +7,10 @@ import Button from "../../components/button/Button";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 
 import landingPerson from "../../assets/lottie/landingPerson.json";
-import { greeting } from "../../portfolio";
+import {greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import {useTranslation} from "react-i18next";
-
-const containerVariants = {
-  hidden: {opacity: 0, y: 40},
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.8,
-      ease: [0.22, 1, 0.36, 1],
-      when: "beforeChildren",
-      staggerChildren: 0.15
-    }
-  }
-};
-
-const childVariants = {
-  hidden: {opacity: 0, y: 20},
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.6,
-      ease: [0.33, 1, 0.68, 1]
-    }
-  }
-};
-
-const imageVariants = {
-  hidden: {opacity: 0, y: 32},
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {duration: 0.9, ease: [0.22, 1, 0.36, 1]}
-  }
-};
+import {defaultViewport, fadeIn, slideUp, stagger} from "../../utils/animations";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
@@ -59,12 +25,13 @@ export default function Greeting() {
       id="greeting"
       className="greet-main"
       initial="hidden"
-      animate="visible"
-      variants={containerVariants}
+      whileInView="show"
+      viewport={defaultViewport}
+      variants={fadeIn}
     >
-      <div className="greeting-wrapper">
-        <motion.div className="greeting-text-card" variants={childVariants}>
-          <motion.h1 className="greeting-title" variants={childVariants}>
+      <motion.div className="greeting-wrapper" variants={stagger(0.2, 0.15)}>
+        <motion.div className="greeting-text-card" variants={stagger(0.14, 0.08)}>
+          <motion.h1 className="greeting-title" variants={slideUp}>
             {t(greeting.title)}{" "}
             <motion.span
               className="wave-emoji"
@@ -76,13 +43,13 @@ export default function Greeting() {
               {emoji("👋")}
             </motion.span>
           </motion.h1>
-          <motion.p className="greeting-subtitle" variants={childVariants}>
+          <motion.p className="greeting-subtitle" variants={slideUp}>
             {t(greeting.subTitle)}
           </motion.p>
-          <motion.div variants={childVariants}>
+          <motion.div variants={slideUp}>
             <SocialMedia />
           </motion.div>
-          <motion.div className="button-greeting-div" variants={childVariants}>
+          <motion.div className="button-greeting-div" variants={slideUp}>
             <Button text="Contact me" href="#contact" />
             {
               // TODO: AGREGAR CV
@@ -97,7 +64,7 @@ export default function Greeting() {
 
         <motion.div
           className="greeting-visual"
-          variants={childVariants}
+          variants={slideUp}
           whileHover={{scale: 1.03, rotate: -1}}
           whileTap={{scale: 0.97}}
         >
@@ -110,12 +77,12 @@ export default function Greeting() {
               src={require("../../assets/images/profile_photo.png")}
               alt="Profile"
               loading="lazy"
-              variants={imageVariants}
+              variants={fadeIn}
             />
             <div className={`greeting-glass ${isDark ? "greeting-glass-dark" : ""}`} />
           </div>
         </motion.div>
-      </div>
+      </motion.div>
     </motion.section>
   );
 }
