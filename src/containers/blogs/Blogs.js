@@ -1,33 +1,40 @@
 import React, {useContext} from "react";
+import {motion} from "framer-motion";
 import "./Blog.css";
 import BlogCard from "../../components/blogCard/BlogCard";
 import {blogSection} from "../../portfolio";
-import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import {defaultViewport, fadeIn, slideUp, stagger} from "../../utils/animations";
 export default function Blogs() {
   const {isDark} = useContext(StyleContext);
   if (!blogSection.display) {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="blogs">
-        <div className="blog-header">
-          <h1 className="blog-header-text">{blogSection.title}</h1>
-          <p
-            className={
-              isDark ? "dark-mode blog-subtitle" : "subTitle blog-subtitle"
-            }
-          >
-            {blogSection.subtitle}
-          </p>
-        </div>
-        <div className="blog-main-div">
-          <div className="blog-text-div">
-            {blogSection.blogs.map((blog, i) => {
-              return (
+    <motion.section
+      className="main"
+      id="blogs"
+      initial="hidden"
+      whileInView="show"
+      viewport={defaultViewport}
+      variants={fadeIn}
+    >
+      <motion.div className="blog-header" variants={slideUp}>
+        <h1 className="blog-header-text">{blogSection.title}</h1>
+        <p
+          className={
+            isDark ? "dark-mode blog-subtitle" : "subTitle blog-subtitle"
+          }
+        >
+          {blogSection.subtitle}
+        </p>
+      </motion.div>
+      <motion.div className="blog-main-div" variants={stagger(0.16, 0.12)}>
+        <motion.div className="blog-text-div" variants={stagger(0.12, 0.1)}>
+          {blogSection.blogs.map((blog, i) => {
+            return (
+              <motion.div key={i} variants={slideUp}>
                 <BlogCard
-                  key={i}
                   isDark={isDark}
                   blog={{
                     url: blog.url,
@@ -36,11 +43,11 @@ export default function Blogs() {
                     description: blog.description
                   }}
                 />
-              );
-            })}
-          </div>
-        </div>
-      </div>
-    </Fade>
+              </motion.div>
+            );
+          })}
+        </motion.div>
+      </motion.div>
+    </motion.section>
   );
 }

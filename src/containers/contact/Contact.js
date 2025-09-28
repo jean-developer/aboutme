@@ -1,68 +1,70 @@
 import React, {useContext} from "react";
+import {motion} from "framer-motion";
 import "./Contact.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {illustration, contactInfo} from "../../portfolio";
-import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 import emoji from "react-easy-emoji";
-import {
-  useTranslation
-} from "react-i18next";
+import {useTranslation} from "react-i18next";
+import {defaultViewport, fadeIn, slideUp, stagger} from "../../utils/animations";
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
-  const {
-    t
-  } = useTranslation('common');
+  const {t} = useTranslation("common");
   return (
-    <Fade bottom duration={1000} distance="20px">
-      <div className="main contact-margin-top" id="contact">
-        <div className="contact-div-main">
-          <div className="contact-header">
-            <h1 className="heading contact-title">{emoji(t(contactInfo.title))}</h1>
-            <p
-              className={
-                isDark
-                  ? "dark-mode contact-subtitle"
-                  : "subTitle contact-subtitle"
-              }
+    <motion.section
+      className="main contact-margin-top"
+      id="contact"
+      initial="hidden"
+      whileInView="show"
+      viewport={defaultViewport}
+      variants={fadeIn}
+    >
+      <motion.div className="contact-div-main" variants={stagger(0.18, 0.12)}>
+        <motion.div className="contact-header" variants={slideUp}>
+          <h1 className="heading contact-title">{emoji(t(contactInfo.title))}</h1>
+          <p
+            className={
+              isDark
+                ? "dark-mode contact-subtitle"
+                : "subTitle contact-subtitle"
+            }
+          >
+            {t(contactInfo.subtitle)}
+          </p>
+          <div
+            className={
+              isDark ? "dark-mode contact-text-div" : "contact-text-div"
+            }
+          >
+            {/* <a className="contact-detail" href={"tel:" + contactInfo.number}>
+              {contactInfo.number}
+            </a>
+            <br />
+            <br /> */}
+            <a
+              className="contact-detail-email"
+              href={"mailto:" + contactInfo.email_address}
             >
-              {t(contactInfo.subtitle)}
-            </p>
-            <div
-              className={
-                isDark ? "dark-mode contact-text-div" : "contact-text-div"
-              }
-            >
-              {/* <a className="contact-detail" href={"tel:" + contactInfo.number}>
-                {contactInfo.number}
-              </a>
-              <br />
-              <br /> */}
-              <a
-                className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
-              >
-                {contactInfo.email_address}
-              </a>
-              <br />
-              <br />
-              <SocialMedia />
-            </div>
+              {contactInfo.email_address}
+            </a>
+            <br />
+            <br />
+            <SocialMedia />
           </div>
-          <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} />
-            ) : (
-              <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
-            )}
-          </div>
-        </div>
-      </div>
-    </Fade>
+        </motion.div>
+        <motion.div className="contact-image-div" variants={slideUp}>
+          {illustration.animated ? (
+            <DisplayLottie animationData={email} />
+          ) : (
+            <img
+              alt="Man working"
+              src={require("../../assets/images/contactMailDark.svg")}
+            ></img>
+          )}
+        </motion.div>
+      </motion.div>
+    </motion.section>
   );
 }
