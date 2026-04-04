@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
+import About from "./about/About";
 import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
@@ -43,6 +44,7 @@ export default class Main extends Component {
           value={{isDark: this.state.isDark, changeTheme: this.changeTheme}}>
           <Header />
           <Greeting />
+          <About />
           <Skills />
           <StackProgress />
           <Education />

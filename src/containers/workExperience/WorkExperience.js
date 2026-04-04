@@ -17,17 +17,22 @@ export default function WorkExperience() {
           <div className="experience-container" id="workExperience">
             <div>
               <h1 className="experience-heading">{t('header.experiences')}</h1>
+              <p className={isDark ? "dark-mode experience-subtitle" : "experience-subtitle"}>
+                {t(workExperiences.subtitle)}
+              </p>
               <div className="experience-cards-div">
                 {workExperiences.experience.map((card, i) => {
                   return (
                     <ExperienceCard
                       key={i}
+                      index={i}
                       isDark={isDark}
                       cardInfo={{
                         company: card.company,
                         contractType: card.contractType,
                         desc: card.desc,
                         date: card.date,
+                        highlight: card.highlight,
                         companylogo: card.companylogo,
                         role: card.role,
                         descBullets: card.descBullets

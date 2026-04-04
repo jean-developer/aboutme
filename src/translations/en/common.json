@@ -18,78 +18,198 @@
     }
   },
   "greeting": {
-    "subtitle": "Experienced Software Developer Analyst with Full-Stack expertise, actively involved in all phases of the Software Development Life Cycle. Passionate about leveraging my knowledge and skills to support and collaborate with colleagues to achieve shared objectives. Demonstrated success in delivering impactful projects that drive growth for clients and organizations. Specialized in implementing innovative Mobile and Web Solutions.",
-    "title": "Hi, Jean Carlos on this side"
+    "focusAreas": {
+      "cloud": "Cloud-native backends",
+      "fintech": "Fintech and enterprise products",
+      "mobile": "Mobile and web delivery"
+    },
+    "primaryCta": "Contact me",
+    "secondaryCta": "See projects",
+    "stats": {
+      "products": "Products shipped or actively supported",
+      "sectors": "Core domains: finance, logistics, fitness",
+      "years": "Years building software solutions"
+    },
+    "subtitle": "Full-stack software engineer focused on backend architecture, mobile experiences, and delivery pipelines that hold up in production. I enjoy turning complex business flows into reliable products and being the kind of teammate teams can count on when things need to move.",
+    "tagline": "Available for impactful product work",
+    "title": "Hi, I'm Jean Carlos"
+  },
+  "aboutSection": {
+    "cards": {
+      "core": {
+        "description": "My strongest stack today lives around .NET, C#, TypeScript, Angular, Ionic, Azure, and modern API integrations. I am most effective where product needs, delivery pressure, and long-term maintainability all matter at the same time.",
+        "eyebrow": "Core stack",
+        "title": "I build systems that need to be reliable, understandable, and ready to evolve."
+      },
+      "impact": {
+        "description": "I have contributed across banking, logistics, tax-free commerce, and fitness products, usually close to the parts of the system where trust, integrations, and operational stability matter most.",
+        "eyebrow": "Impact",
+        "title": "The work I enjoy most sits at the intersection of product clarity and technical ownership."
+      }
+    },
+    "description": "Based in Santo Domingo, I have spent the last several years shipping software for teams that need dependable backend services, polished customer-facing experiences, and thoughtful collaboration. My portfolio is strongest where cloud services, enterprise workflows, and mobile products meet.",
+    "highlights": {
+      "collaboration": {
+        "description": "I care about communicating clearly, unblocking teammates quickly, and keeping delivery calm even when projects are moving fast.",
+        "title": "Productive teammate"
+      },
+      "delivery": {
+        "description": "From APIs and integrations to CI/CD and support, I like owning the path from implementation to stable release.",
+        "title": "End-to-end delivery"
+      },
+      "finance": {
+        "description": "Much of my recent work has been in enterprise and fintech environments where reliability, traceability, and maintainability matter.",
+        "title": "Built for high-trust domains"
+      }
+    },
+    "subtitle": "More than a role title",
+    "title": "A software engineer who enjoys building useful, durable products"
   },
   "header": {
+    "about": "About",
     "achievements": "Achievements",
     "contactme": "Contact me",
     "education": "Education",
     "experiences": "Work Experience",
     "opensource": "Open Source",
-    "skills": "Skills",
-    "projects": "Projects"
+    "projects": "Projects",
+    "skills": "Skills"
   },
   "skillProgress": {
     "skillProgressTitle": "Proficiency",
     "subTitles": {
       "BackEndTechnologies": "Back-End Technologies",
+      "CloudComputingServices": "Cloud Computing Services",
       "FrontEndTechnologies": "Front-End Technologies",
       "MessageBrokers": "Message Brokers",
-      "VersionControlSystems": "Version Control Systems",
+      "PaaS&CaaS": "PaaS & CaaS",
       "ProgrammingLanguages": "Programming Languages",
-      "CloudComputingServices": "Cloud Computing Services",
-      "PaaS&CaaS": "PaaS & CaaS"
+      "VersionControlSystems": "Version Control Systems"
     }
   },
+  "social": {
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
   "skillsSection": {
-    "skill1": "Develop highly functional Back end structures and interactives Front end / User Interfaces for your web and mobile applications.",
+    "skill1": "Develop highly functional Back end structures and interactive Front end / User Interfaces for your web and mobile applications.",
     "skill2": "Integration of third party services such as Firebase, Azure, RabbitMQ.",
     "skill3": "Hybrid Mobile Development.",
-    "skill4": "Continous Integration and Continous Deployment control with Azure Devops.",
+    "skill4": "Continuous Integration and Continuous Deployment control with Azure DevOps.",
     "skillssubtitle": "Conceptualize and develop projects with the most popular and functional stacks. As the following:",
     "skillstitle": "What I do?"
+  },
+  "startupProjects": {
+    "Biafit": {
+      "category": "Health & fitness",
+      "projectDesc": "BiaFit is your personalized fitness companion, empowering you to create and adapt training programs perfectly suited to your experience levels and unique fitness aspirations. Whether you're aiming for strength, muscle building, or overall fitness enhancement, BiaFit's subscription-based workout platform gives you a versatile toolkit to design and customize routines according to your needs.",
+      "projectName": "Bia-Fit"
+    },
+    "Banreservas": {
+      "category": "Banking app",
+      "projectDesc": "The Banreservas Personas app, free of data and internet usage, allows you to make inquiries, transactions, locate ATMs, branches, and sub-agents, and stay up to date with the latest news from Banreservas in the most convenient and simple way.",
+      "projectName": "Banreservas App"
+    },
+    "DORA": {
+      "category": "Logistics platform",
+      "projectDesc": "The DORA PQ web application by TIBA is a specialized system for managing international transportation and logistical needs in Spain.",
+      "projectName": "DORA"
+    },
+    "Movilapap": {
+      "category": "Mobile banking",
+      "projectDesc": "The Móvilapap application is a cutting-edge mobile product designed to cater to the unique needs of banking clients. It gives customers seamless access to financial products and exclusive benefits tied to their banking relationships.",
+      "projectName": "Móvilapap"
+    },
+    "PSLearning": {
+      "category": "Learning platform",
+      "projectDesc": "Mobile and web applications for the citizen service officers of Punto Solidario. This application provides a dynamic and fully self-managed learning mode to improve staff skills.",
+      "projectName": "PSLearning"
+    },
+    "Stamp": {
+      "category": "Tax-free commerce",
+      "projectDesc": "Save 100% of VAT upfront while shopping tax-free. Forget about refund fees, lines, and paperwork.\n\nTraditional tax refund agencies charge you up to 60% per transaction. The more you spend, the more agencies take from you.",
+      "projectName": "Stamp Tax Free"
+    },
+    "shared": {
+      "metrics": {
+        "backendOwnership": "Backend engineering ownership",
+        "banking": "Banking customer experience",
+        "b2b": "B2B operations workflow",
+        "cloudApis": "Cloud services and APIs",
+        "enterpriseScale": "Enterprise-grade integrations",
+        "fintech": "Financial product delivery",
+        "learning": "Training and enablement",
+        "logistics": "International logistics flow",
+        "mobileApps": "Mobile apps in production",
+        "mobileDelivery": "Mobile release support",
+        "publicSector": "Public-sector enablement",
+        "subscription": "Subscription-based product"
+      }
+    },
+    "subTitle": "A selection of products where I contributed across backend systems, mobile delivery, and production support.",
+    "title": "Featured Projects"
   },
   "workExperiences": {
     "APAP": {
       "company": "APAP",
-      "date": "Jun 2020 – Aug 2021; Jun 2022 - Oct 2023",
-      "desc": "Developing solutions, based on the requirements of the institution to create services that meet the needs of customers.",
-      "role": "Senior Software Developer Analyst",
-      "contractType": "Full-Time"
+      "contractType": "Full-Time",
+      "date": "Jun 2020 - Aug 2021; Jun 2022 - Oct 2023",
+      "desc": "Developing solutions based on institutional requirements to create services that meet customer needs.",
+      "highlight": "Enterprise banking delivery",
+      "role": "Senior Software Developer Analyst"
+    },
+    "Banreservas": {
+      "company": "Banreservas",
+      "contractType": "Full-Time",
+      "date": "Oct 2023 - Present",
+      "desc": "As a Back End Development Engineer at Banco de Reservas, I am responsible for designing, developing, and maintaining the backend systems that power our banking solutions. My role involves working with technologies such as MongoDB, PostgreSQL, and Azure services to ensure seamless integration and efficient functionality of our applications.",
+      "highlight": "Core banking backend engineering",
+      "role": "Back-End Development Engineer"
+    },
+    "Encamina": {
+      "company": "Encamina",
+      "contractType": "Contract",
+      "date": "Sep 2022 - Feb 2024",
+      "desc": "My responsibilities focused on developing new features for DORA PQ from TIBA, a web application intended to manage logistics needs related to freight forwarders, logistics operators, and customs agents in Spain, with a strong specialization in international transportation.",
+      "highlight": "Cloud solutions for logistics",
+      "role": "Cloud Solutions Developer"
+    },
+    "Endurance": {
+      "company": "Endurance International Group",
+      "contractType": "Contract",
+      "date": "Sep 2021 - Mar 2023",
+      "desc": "Providing software development services and solving issues that affected the customer experience of the services offered by Endurance/Newfold Digital and its integrations, primarily EcomDash.",
+      "highlight": "E-commerce platform support",
+      "role": "Software Development Engineer"
     },
     "LogicOne": {
       "company": "LogicOne SRL",
+      "contractType": "Full-Time",
       "date": "Nov 2018 - May 2020",
-      "desc": "Developing WEB systems based on Microsoft technology and hybrid mobile applications, such as:",
+      "desc": "Developing web systems based on Microsoft technology and hybrid mobile applications, such as:",
       "descBullets": {
         "1": "Microsoft Dynamics (365 F&O, GP, CRM)",
         "2": "Microsoft .NET Core",
         "3": "Microsoft .NET Framework (MVC)",
         "4": "Ionic (V3, V4)"
       },
-      "role": "Software Developer",
-      "contractType": "Full-Time"
+      "highlight": "Microsoft ecosystem foundations",
+      "role": "Software Developer"
     },
-    "Endurance": {
-      "role": "Software Development Engineer",
-      "date": "Sep 2021 – Mar 2023",
-      "company": "Endurance International Group",
-      "desc": "Providing my services in Software Development and solving issues that can affect the user experience of the customers that use the provided services by the Endurance/Newfold Digital company and it's integrations, primarily EcomDash (Web application where you can manage both your marketplace and ecommerce website sales).",
-      "contractType": "Contract"
-    },
-    "Encamina": {
-      "company": "Encamina",
-      "role": "Cloud Solutions Developer",
-      "date": "Sep 2022 - Feb 2024",
+    "Stamp": {
+      "company": "STAMP",
       "contractType": "Contract",
-      "desc": "My responsibilities are mostly to develop new features on a Web Application called DORA PQ from TIBA, it’s intended to manage logistics needs related to finding freight forwarders, logistics operators, and customs agents in Spain, specifically specializing in international transport."
+      "date": "Jun 2024 - Present",
+      "desc": "As a Backend Engineer at Stamp, I am responsible for designing, developing, and maintaining the backend systems that support our solutions. My role involves working with .NET and Azure technologies to ensure seamless integration and reliable functionality.",
+      "highlight": "Tax-free commerce backend",
+      "role": "Software Engineer"
     },
     "Teric": {
       "company": "Teric Technology LLC",
       "contractType": "Contract",
       "date": "Dec 2023 - May 2024",
-      "desc": "Providing my services as a Back End Developer for building a Fitness App called BiaFit, which is defined as your personalized fitness companion, empowering you to create and adapt training programs perfectly suited to your experience levels and unique fitness aspirations.\nMaking use of many technologies, such as:",
+      "desc": "Providing my services as a Back End Developer for building a fitness app called BiaFit, designed as a personalized training companion.\nWorking with technologies such as:",
       "descBullets": {
         "1": ".NET (C#)",
         "2": "Azure SQL Database",
@@ -97,49 +217,11 @@
         "4": "Logic Apps",
         "5": "Azure AD B2C"
       },
+      "highlight": "Health-tech backend delivery",
       "role": "Back-End Development Engineer"
     },
-    "Banreservas": {
-      "company": "Banreservas",
-      "contractType": "Full-Time",
-      "date": "Oct 2023 - Present",
-      "desc": "As a Back End Development Engineer at Banco de Reservas, I am responsible for designing, developing, and maintaining the backend systems that power our banking solutions. My role involves working with technologies such as MongoDB, PostgreSQL, and Azure services to ensure seamless integration and efficient functionality of our applications.",
-      "role": "Back-End Development Engineer"
-    },
-    "Stamp": {
-      "company": "STAMP",
-      "role": "Software Engineer",
-      "contractType": "Contract",
-      "date": "Jun 2024 - Present",
-      "desc": "As a Backend Engineer at Stamp, I am responsible for designing, developing, and maintaining the backend systems that support our innovative solutions. My role involves working with .NET and Azure technologies to ensure the seamless integration and functionality of our applications."
-    }
-  },
-  "startupProjects": {
-    "PSLearning": {
-      "projectName": "PSLearning",
-      "projectDesc": "Mobile and Web applications addressed to the citizen service officers of Punto Solidario. This application allows access to a dynamic and fully self-managed learning mode to improve the skills of Punto Solidario staff."
-    },
-    "title": "Projects",
-    "subTitle": "SOME PERSONAL AND COMPANIES PROJECTS THAT I HAVE PARTICIPATED ON ITS CREATION OR SUPPORTING THEM",
-    "Movilapap": {
-      "projectDesc": "The Móvilapap application is a cutting-edge mobile application designed to cater to the unique needs of banking clients. This app serves as a gateway for customers to seamlessly access a variety of financial products and exclusive benefits tied to their banking relationships.",
-      "projectName": "Móvilapap"
-    },
-    "DORA": {
-      "projectName": "DORA",
-      "projectDesc": "The DORA PQ Web Application by TIBA is a specialized system for managing international transportation and logistical needs in Spain."
-    },
-    "Biafit": {
-      "projectDesc": "BiaFit, is your personalized fitness companion, empowering you to create and adapt training programs perfectly suited to your experience levels and unique fitness aspirations. Whether you're aiming for strength, muscle building, or overall fitness enhancement, BiaFit's subscription-based workout platform provides you with a versatile toolkit to design and customize training routines according to your needs.",
-      "projectName": "Bia-Fit"
-    },
-    "Banreservas": {
-      "projectName": "Banreservas App",
-      "projectDesc": "The Banreservas Personas App, free of data and internet usage, allows you to make inquiries, transactions, locate ATMs, branches, and sub-agents, and stay up to date with the latest news from Banreservas in the most convenient and simple way."
-    },
-    "Stamp": {
-      "projectDesc": "Save 100% of VAT upfront while shopping tax-free. Forget about refund fees, lines, and paperwork.\n\nTraditional tax refund agencies charge you up to 60% per transaction. The more you spend, the more agencies take from you.",
-      "projectName": "Stamp Tax Free"
+    "meta": {
+      "subtitle": "A timeline of roles where I have owned backend development, integrations, and product delivery across banking, logistics, commerce, and mobile experiences."
     }
   }
 }

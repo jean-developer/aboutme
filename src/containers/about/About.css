@@ -1,0 +1,133 @@
+.about-section {
+  width: min(1080px, 92%);
+  margin: 0 auto;
+  padding: 1rem 0 0;
+}
+
+.about-shell {
+  display: grid;
+  gap: 1.5rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border-radius: 32px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(244, 247, 251, 0.72));
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 28px 72px -52px rgba(15, 23, 42, 0.38);
+}
+
+.about-copy,
+.about-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-kicker {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(14, 116, 144, 0.1);
+  color: #0f766e;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.about-kicker-dark {
+  background: rgba(45, 212, 191, 0.14);
+  color: #99f6e4;
+}
+
+.about-title {
+  margin: 0;
+  color: #0f172a;
+  font-size: clamp(2rem, 4vw, 3.05rem);
+  line-height: 1.05;
+}
+
+.dark-mode .about-title {
+  color: #f8fafc;
+}
+
+.about-description {
+  margin: 0;
+  color: rgba(15, 23, 42, 0.74);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.about-description-dark {
+  color: rgba(226, 232, 240, 0.76);
+}
+
+.about-highlight-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.about-highlight-card,
+.about-story-card {
+  padding: 1.2rem 1.25rem;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  box-shadow: 0 24px 48px -42px rgba(15, 23, 42, 0.45);
+}
+
+.about-highlight-card-dark,
+.about-story-card-dark {
+  background: rgba(15, 23, 42, 0.54);
+  border-color: rgba(148, 163, 184, 0.18);
+}
+
+.about-highlight-card h3,
+.about-story-card h3 {
+  margin: 0 0 0.5rem;
+  color: #0f172a;
+  font-size: 1.05rem;
+}
+
+.dark-mode .about-highlight-card h3,
+.dark-mode .about-story-card h3 {
+  color: #f8fafc;
+}
+
+.about-highlight-card p,
+.about-story-card p {
+  margin: 0;
+  color: rgba(15, 23, 42, 0.72);
+  line-height: 1.65;
+}
+
+.dark-mode .about-highlight-card p,
+.dark-mode .about-story-card p {
+  color: rgba(226, 232, 240, 0.75);
+}
+
+.about-story-card span {
+  display: inline-flex;
+  margin-bottom: 0.7rem;
+  color: #0f766e;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.dark-mode .about-story-card span {
+  color: #5eead4;
+}
+
+@media (min-width: 960px) {
+  .about-shell {
+    grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+    align-items: start;
+  }
+
+  .about-highlight-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

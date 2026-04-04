@@ -38,6 +38,9 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
+          <li>
+            <a href="#about">{t('header.about')}</a>
+          </li>
            { 
            viewSkills && (
             <li>

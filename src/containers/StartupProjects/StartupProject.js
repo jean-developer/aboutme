@@ -9,7 +9,7 @@ import {
 
 export default function StartupProject() {
   function openProjectInNewWindow(url) {
-    var win = window.open(url, "_blank");
+    var win = window.open(url, "_blank", "noopener,noreferrer");
     win.focus();
   }
   const { t } = useTranslation('common');
@@ -42,16 +42,26 @@ export default function StartupProject() {
                       ? "dark-mode project-card project-card-dark"
                       : "project-card project-card-light"
                   }
+                  style={{"--project-accent": project.accent}}
                 >
-                  {project.image ? (
-                    <div className="project-image">
-                      <img
-                        src={project.image}
-                        alt={t(project.projectName)}
-                        className="card-image"
-                      ></img>
+                  <div className="project-image-shell">
+                    <div className="project-card-topline">
+                      <span className="project-card-category">{t(project.category)}</span>
+                      <span className="project-card-year">{project.year}</span>
                     </div>
-                  ) : null}
+                    {project.image ? (
+                      <div className="project-image">
+                        <div className="project-device-frame">
+                          <div className="project-device-notch"></div>
+                          <img
+                            src={project.image}
+                            alt={t(project.projectName)}
+                            className="card-image"
+                          ></img>
+                        </div>
+                      </div>
+                    ) : null}
+                  </div>
                   <div className="project-detail">
                     <h5
                       className={isDark ? "dark-mode card-title" : "card-title"}
@@ -65,11 +75,20 @@ export default function StartupProject() {
                     >
                       {t(project.projectDesc)}
                     </p>
+                    {project.metrics ? (
+                      <div className="project-metrics">
+                        {project.metrics.map((metric, index) => (
+                          <span key={index} className={isDark ? "dark-mode project-metric" : "project-metric"}>
+                            {t(metric)}
+                          </span>
+                        ))}
+                      </div>
+                    ) : null}
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
                           return (
-                            <span
+                            <button
                               key={i}
                               className={
                                 isDark ? "dark-mode project-tag" : "project-tag"
@@ -77,7 +96,7 @@ export default function StartupProject() {
                               onClick={() => openProjectInNewWindow(link.url)}
                             >
                               {link.name}
-                            </span>
+                            </button>
                           );
                         })}
                       </div>

@@ -1,8 +1,11 @@
 import React from "react";
 import "./SocialMedia.css";
+import {useTranslation} from "react-i18next";
 import {socialMediaLinks} from "../../portfolio";
 
-export default function socialMedia() {
+export default function SocialMedia() {
+  const {t} = useTranslation("common");
+
   if (!socialMediaLinks.display) {
     return null;
   }
@@ -16,7 +19,7 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-github"></i>
-          <span></span>
+          <span>{t("social.github")}</span>
         </a>
       ) : null}
 
@@ -28,7 +31,7 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-linkedin-in"></i>
-          <span></span>
+          <span>{t("social.linkedin")}</span>
         </a>
       ) : null}
 
@@ -40,7 +43,7 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-google"></i>
-          <span></span>
+          <span>{t("social.email")}</span>
         </a>
       ) : null}
 
@@ -52,7 +55,7 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-gitlab"></i>
-          <span></span>
+          <span>GitLab</span>
         </a>
       ) : null}
 
@@ -64,7 +67,7 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-facebook-f"></i>
-          <span></span>
+          <span>Facebook</span>
         </a>
       ) : null}
 
@@ -76,7 +79,7 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-instagram"></i>
-          <span></span>
+          <span>Instagram</span>
         </a>
       ) : null}
 
@@ -88,7 +91,7 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-twitter"></i>
-          <span></span>
+          <span>Twitter</span>
         </a>
       ) : null}
 
@@ -100,7 +103,7 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-medium"></i>
-          <span></span>
+          <span>Medium</span>
         </a>
       ) : null}
 
@@ -112,7 +115,7 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-stack-overflow"></i>
-          <span></span>
+          <span>Stack Overflow</span>
         </a>
       ) : null}
     </div>

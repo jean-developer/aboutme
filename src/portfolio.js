@@ -12,9 +12,28 @@ const illustration = {
 const greeting = {
   username: "Jean Arnaud",
   title: "greeting.title",
-  subTitle: emoji(
-    "greeting.subtitle"
-  ),
+  subTitle: emoji("greeting.subtitle"),
+  tagline: "greeting.tagline",
+  location: "Santo Domingo, Dominican Republic",
+  focusAreas: [
+    "greeting.focusAreas.cloud",
+    "greeting.focusAreas.mobile",
+    "greeting.focusAreas.fintech"
+  ],
+  stats: [
+    {
+      value: "7+",
+      label: "greeting.stats.years"
+    },
+    {
+      value: "6+",
+      label: "greeting.stats.products"
+    },
+    {
+      value: "3",
+      label: "greeting.stats.sectors"
+    }
+  ],
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -32,6 +51,39 @@ const socialMediaLinks = {
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
+};
+
+const aboutSection = {
+  title: "aboutSection.title",
+  subtitle: "aboutSection.subtitle",
+  description: "aboutSection.description",
+  highlights: [
+    {
+      title: "aboutSection.highlights.finance.title",
+      description: "aboutSection.highlights.finance.description"
+    },
+    {
+      title: "aboutSection.highlights.delivery.title",
+      description: "aboutSection.highlights.delivery.description"
+    },
+    {
+      title: "aboutSection.highlights.collaboration.title",
+      description: "aboutSection.highlights.collaboration.description"
+    }
+  ],
+  cards: [
+    {
+      eyebrow: "aboutSection.cards.core.eyebrow",
+      title: "aboutSection.cards.core.title",
+      description: "aboutSection.cards.core.description"
+    },
+    {
+      eyebrow: "aboutSection.cards.impact.eyebrow",
+      title: "aboutSection.cards.impact.title",
+      description: "aboutSection.cards.impact.description"
+    }
+  ],
+  display: true
 };
 
 // Skills Section
@@ -239,6 +291,7 @@ const techStack = {
 // Work experience section
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
+  subtitle: "workExperiences.meta.subtitle",
   experience: [
     {
       role: "workExperiences.Stamp.role",
@@ -247,6 +300,7 @@ const workExperiences = {
       contractType: "workExperiences.Stamp.contractType",
       date: "workExperiences.Stamp.date",
       desc: "workExperiences.Stamp.desc",
+      highlight: "workExperiences.Stamp.highlight",
       descBullets: [
         "Entity Framework",
         "Azure Service Bus",
@@ -265,6 +319,7 @@ const workExperiences = {
       contractType: "workExperiences.Banreservas.contractType",
       date: "workExperiences.Banreservas.date",
       desc: "workExperiences.Banreservas.desc",
+      highlight: "workExperiences.Banreservas.highlight",
       descBullets: [
         "MongoDB",
         "PostgreSQL",
@@ -284,6 +339,7 @@ const workExperiences = {
       contractType: "workExperiences.Teric.contractType",
       date: "workExperiences.Teric.date",
       desc: "workExperiences.Teric.desc",
+      highlight: "workExperiences.Teric.highlight",
       descBullets: [
         ".NET (C#)",
         "Azure SQL Database",
@@ -299,6 +355,7 @@ const workExperiences = {
       contractType: "workExperiences.Encamina.contractType",
       date: "workExperiences.Encamina.date",
       desc: "workExperiences.Encamina.desc",
+      highlight: "workExperiences.Encamina.highlight",
       descBullets: [
         "ASP.NET Core",
         "Angular",
@@ -320,6 +377,7 @@ const workExperiences = {
       contractType: "workExperiences.Endurance.contractType",
       date: "workExperiences.Endurance.date",
       desc: "workExperiences.Endurance.desc",
+      highlight: "workExperiences.Endurance.highlight",
       descBullets: [
         "C#",
         "ReactJS",
@@ -338,6 +396,7 @@ const workExperiences = {
       contractType: "workExperiences.APAP.contractType",
       date: "workExperiences.APAP.date",
       desc: "workExperiences.APAP.desc",
+      highlight: "workExperiences.APAP.highlight",
       descBullets: [
         "NodeJS",
         "Angular",
@@ -356,6 +415,7 @@ const workExperiences = {
       contractType: "workExperiences.LogicOne.contractType",
       date: "workExperiences.LogicOne.date",
       desc: "workExperiences.LogicOne.desc",
+      highlight: "workExperiences.LogicOne.highlight",
       descBullets: [
         "Microsoft Dynamics (365 F&O, GP, CRM)",
         "Microsoft .NET Core",
@@ -384,6 +444,13 @@ const bigProjects = {
       image: require("./assets/images/stamptaxfree_logo.jpeg"),
       projectName: "startupProjects.Stamp.projectName",
       projectDesc: "startupProjects.Stamp.projectDesc",
+      category: "startupProjects.Stamp.category",
+      year: "2024",
+      accent: "#0f766e",
+      metrics: [
+        "startupProjects.shared.metrics.mobileApps",
+        "startupProjects.shared.metrics.backendOwnership"
+      ],
       footerLink: [{
         name: "View in the App Store",
         url: "https://apps.apple.com/us/app/stamp-city-duty-free/id1321377133"
@@ -398,6 +465,13 @@ const bigProjects = {
       image: require("./assets/images/Banreservas.jpeg"),
       projectName: "startupProjects.Banreservas.projectName",
       projectDesc: "startupProjects.Banreservas.projectDesc",
+      category: "startupProjects.Banreservas.category",
+      year: "2023",
+      accent: "#1d4ed8",
+      metrics: [
+        "startupProjects.shared.metrics.fintech",
+        "startupProjects.shared.metrics.enterpriseScale"
+      ],
       footerLink: [{
         name: "View in the App Store",
         url: "https://apps.apple.com/do/app/banreservas/id1170610154"
@@ -412,6 +486,13 @@ const bigProjects = {
       image: require("./assets/images/biafit-logo.webp"),
       projectName: "startupProjects.Biafit.projectName",
       projectDesc: "startupProjects.Biafit.projectDesc",
+      category: "startupProjects.Biafit.category",
+      year: "2024",
+      accent: "#be123c",
+      metrics: [
+        "startupProjects.shared.metrics.subscription",
+        "startupProjects.shared.metrics.cloudApis"
+      ],
       footerLink: [{
         name: "View in the App Store",
         url: "https://apps.apple.com/do/app/bia-fit/id6475781001"
@@ -426,6 +507,13 @@ const bigProjects = {
       image: require("./assets/images/movilapaplogo.webp"),
       projectName: "startupProjects.Movilapap.projectName",
       projectDesc: "startupProjects.Movilapap.projectDesc",
+      category: "startupProjects.Movilapap.category",
+      year: "2023",
+      accent: "#7c3aed",
+      metrics: [
+        "startupProjects.shared.metrics.banking",
+        "startupProjects.shared.metrics.mobileDelivery"
+      ],
       footerLink: [{
         name: "View in the App Store",
         url: "https://apps.apple.com/us/app/m%C3%B3vil-apap/id1073508748"
@@ -440,6 +528,13 @@ const bigProjects = {
       image: require("./assets/images/doraLogo.png"),
       projectName: "startupProjects.DORA.projectName",
       projectDesc: "startupProjects.DORA.projectDesc",
+      category: "startupProjects.DORA.category",
+      year: "2024",
+      accent: "#c2410c",
+      metrics: [
+        "startupProjects.shared.metrics.logistics",
+        "startupProjects.shared.metrics.b2b"
+      ],
       footerLink: [{
         name: "Visit TIBA website",
         url: "https://www.tibagroup.com/"
@@ -450,6 +545,13 @@ const bigProjects = {
       image: require("./assets/images/pslearninglogo.webp"),
       projectName: "startupProjects.PSLearning.projectName",
       projectDesc: "startupProjects.PSLearning.projectDesc",
+      category: "startupProjects.PSLearning.category",
+      year: "2022",
+      accent: "#0f766e",
+      metrics: [
+        "startupProjects.shared.metrics.publicSector",
+        "startupProjects.shared.metrics.learning"
+      ],
       footerLink: [{
         name: "Visit Website",
         url: "http://pslearning.gob.do/pslearning/"
@@ -589,6 +691,7 @@ export {
   illustration,
   greeting,
   socialMediaLinks,
+  aboutSection,
   skillsSection,
   educationInfo,
   techStack,

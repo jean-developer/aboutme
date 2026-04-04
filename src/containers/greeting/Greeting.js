@@ -64,6 +64,15 @@ export default function Greeting() {
     >
       <div className="greeting-wrapper">
         <motion.div className="greeting-text-card" variants={childVariants}>
+          <motion.div className="greeting-intro-row" variants={childVariants}>
+            <span className={`greeting-tag ${isDark ? "greeting-tag-dark" : ""}`}>
+              {t(greeting.tagline)}
+            </span>
+            <span className={`greeting-location ${isDark ? "greeting-location-dark" : ""}`}>
+              <i className="fas fa-map-marker-alt" aria-hidden="true"></i>
+              {greeting.location}
+            </span>
+          </motion.div>
           <motion.h1 className="greeting-title" variants={childVariants}>
             {t(greeting.title)}{" "}
             <motion.span
@@ -79,11 +88,33 @@ export default function Greeting() {
           <motion.p className="greeting-subtitle" variants={childVariants}>
             {t(greeting.subTitle)}
           </motion.p>
+          <motion.div className="greeting-focus-list" variants={childVariants}>
+            {greeting.focusAreas.map((focusArea, index) => (
+              <span
+                className={`greeting-focus-pill ${isDark ? "greeting-focus-pill-dark" : ""}`}
+                key={index}
+              >
+                {t(focusArea)}
+              </span>
+            ))}
+          </motion.div>
+          <motion.div className="greeting-stats-grid" variants={childVariants}>
+            {greeting.stats.map((stat, index) => (
+              <div
+                className={`greeting-stat-card ${isDark ? "greeting-stat-card-dark" : ""}`}
+                key={index}
+              >
+                <strong>{stat.value}</strong>
+                <span>{t(stat.label)}</span>
+              </div>
+            ))}
+          </motion.div>
           <motion.div variants={childVariants}>
             <SocialMedia />
           </motion.div>
           <motion.div className="button-greeting-div" variants={childVariants}>
-            <Button text="Contact me" href="#contact" />
+            <Button text={t("greeting.primaryCta")} href="#contact" />
+            <Button text={t("greeting.secondaryCta")} href="#projects" />
             {
               // TODO: AGREGAR CV
               /* <Button
